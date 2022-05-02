@@ -5,43 +5,359 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Relay_🇨🇳CN-🇸🇬SG_633, server: V104.bgpnet.top, port: 26104, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /admin, ws-headers: {Host: V104.bgpnet.top}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_490, server: V107.bgpnet.top, port: 26107, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /admin, ws-headers: {Host: V107.bgpnet.top}, udp: true}
+  - {name: JP_1051, server: 141.164.35.41, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP_1089, server: 141.164.59.168, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_🇨🇳 CN-🇺🇸US_576, server: V201.bgpnet.top, port: 26201, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /admin, ws-headers: {Host: V201.bgpnet.top}, udp: true}
+  - {name: JP_1085, server: 141.164.53.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP_1108, server: 172.104.82.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_🇸🇬SG-🇨🇦CA_1798, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3799, server: vfly5.xyz, port: 443, type: vmess, uuid: 825136bb-fc0a-4f43-8307-dc2e36f27e2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /myblog, ws-headers: {Host: vfly5.xyz}, udp: true}
+  - {name: SG_1737, server: 139.162.24.50, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: SG_1767, server: 172.104.50.106, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: SG_1684, server: 139.162.58.13, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2142, server: 38.114.114.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2091, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3083, server: 167.88.61.175, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3457, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3324, server: 38.114.114.69, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2365, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2355, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2231, server: 167.88.61.14, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: SG_1803, server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_3655, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2088, server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2665, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2927, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3369, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3046, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2058, server: 38.143.66.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2362, server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3420, server: 38.143.66.186, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2384, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3515, server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3490, server: 38.68.134.202, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2922, server: 38.68.135.123, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2984, server: 167.88.62.34, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3152, server: 167.88.62.104, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3618, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: SG_861, server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_3431, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3271, server: 38.64.138.145, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1972, server: 142.202.48.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2882, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2574, server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2210, server: 38.91.100.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2481, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2837, server: 142.202.48.77, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1976, server: vpn01.nfeng6.pp.ua, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2678, server: 142.202.48.58, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2510, server: 142.202.48.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3482, server: 142.202.48.78, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2607, server: 142.202.48.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2634, server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3196, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2915, server: 142.202.48.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1989, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2301, server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2719, server: 38.91.100.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2820, server: 142.202.48.17, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2386, server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2690, server: 142.202.48.114, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1825, server: 167.88.63.11, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: US_1823, server: 158.247.205.87, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1856, server: 158.247.205.87, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_2684, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2893, server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_🇸🇬SG-🇨🇦CA_1799, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇯🇵JP_3785, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
+  - {name: US_3450, server: 158.247.199.253, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1889, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2224, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2017, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2286, server: 172.99.190.90, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2480, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2035, server: 172.99.190.186, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2401, server: 172.104.207.231, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3049, server: 172.99.190.188, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2255, server: 172.99.188.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2483, server: 38.86.135.126, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _GB_英国, server: 152.89.210.84, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3780, server: freestarway.tk, port: 443, type: vmess, uuid: 68de58a5-2f9f-45e9-cb64-2d87fdf5f031, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: freestarway.tk}, udp: true}
+  - {name: JP_1090, server: 141.164.39.146, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: Relay_🇺🇸US-🇷🇺RU_3774, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3758, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /evo, ws-headers: {Host: 1chuan.top}, udp: true}
-  - {name: US_1407, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇳CN-🇰🇷KR_453, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_2554, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_2952, server: 167.172.135.97, port: 25453, type: ss, cipher: aes-256-cfb, password: a40ff797db5c4b948cfe5a5234a0e74c, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇸🇬SG_633
+      - Relay_🇨🇳CN-🇸🇬SG_490
+      - JP_1051
+      - JP_1089
+      - Relay_🇨🇳 CN-🇺🇸US_576
+      - JP_1085
+      - JP_1108
+      - Relay_🇸🇬SG-🇨🇦CA_1798
+      - Relay_🇺🇸US-🇺🇸US_3799
+      - SG_1737
+      - SG_1767
+      - SG_1684
+      - US_2142
+      - US_2091
+      - US_3083
+      - US_3457
+      - US_3324
+      - US_2365
+      - US_2355
+      - US_2231
+      - SG_1803
+      - US_3655
+      - US_2088
+      - US_2665
+      - US_2927
+      - US_3369
+      - US_3046
+      - US_2058
+      - US_2362
+      - US_3420
+      - US_2384
+      - US_3515
+      - US_3490
+      - US_2922
+      - US_2984
+      - US_3152
+      - US_3618
+      - SG_861
+      - US_3431
+      - US_3271
+      - US_1972
+      - US_2882
+      - US_2574
+      - US_2210
+      - US_2481
+      - US_2837
+      - Relay_🇺🇸US-🇺🇸US_1976
+      - US_2678
+      - US_2510
+      - US_3482
+      - US_2607
+      - US_2634
+      - US_3196
+      - US_2915
+      - US_1989
+      - US_2301
+      - US_2719
+      - US_2820
+      - US_2386
+      - US_2690
+      - US_1825
       - US_1823
-      - US_1856
+      - US_2684
+      - US_2893
+      - Relay_🇸🇬SG-🇨🇦CA_1799
+      - Relay_🇺🇸US-🇯🇵JP_3785
+      - US_3450
+      - US_1889
+      - US_2224
+      - US_2017
+      - US_2286
+      - US_2480
+      - US_2035
+      - US_2401
+      - US_3049
+      - US_2255
+      - US_2483
+      - _GB_英国
+      - Relay_🇺🇸US-🇺🇸US_3780
+      - JP_1090
       - Relay_🇺🇸US-🇷🇺RU_3774
-      - Relay_🇺🇸US-🇺🇸US_3758
-      - US_1407
+      - Relay_🇨🇳CN-🇰🇷KR_453
+      - US_2554
+      - US_2952
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Relay_🇨🇳CN-🇸🇬SG_633
+      - Relay_🇨🇳CN-🇸🇬SG_490
+      - JP_1051
+      - JP_1089
+      - Relay_🇨🇳 CN-🇺🇸US_576
+      - JP_1085
+      - JP_1108
+      - Relay_🇸🇬SG-🇨🇦CA_1798
+      - Relay_🇺🇸US-🇺🇸US_3799
+      - SG_1737
+      - SG_1767
+      - SG_1684
+      - US_2142
+      - US_2091
+      - US_3083
+      - US_3457
+      - US_3324
+      - US_2365
+      - US_2355
+      - US_2231
+      - SG_1803
+      - US_3655
+      - US_2088
+      - US_2665
+      - US_2927
+      - US_3369
+      - US_3046
+      - US_2058
+      - US_2362
+      - US_3420
+      - US_2384
+      - US_3515
+      - US_3490
+      - US_2922
+      - US_2984
+      - US_3152
+      - US_3618
+      - SG_861
+      - US_3431
+      - US_3271
+      - US_1972
+      - US_2882
+      - US_2574
+      - US_2210
+      - US_2481
+      - US_2837
+      - Relay_🇺🇸US-🇺🇸US_1976
+      - US_2678
+      - US_2510
+      - US_3482
+      - US_2607
+      - US_2634
+      - US_3196
+      - US_2915
+      - US_1989
+      - US_2301
+      - US_2719
+      - US_2820
+      - US_2386
+      - US_2690
+      - US_1825
       - US_1823
-      - US_1856
+      - US_2684
+      - US_2893
+      - Relay_🇸🇬SG-🇨🇦CA_1799
+      - Relay_🇺🇸US-🇯🇵JP_3785
+      - US_3450
+      - US_1889
+      - US_2224
+      - US_2017
+      - US_2286
+      - US_2480
+      - US_2035
+      - US_2401
+      - US_3049
+      - US_2255
+      - US_2483
+      - _GB_英国
+      - Relay_🇺🇸US-🇺🇸US_3780
+      - JP_1090
       - Relay_🇺🇸US-🇷🇺RU_3774
-      - Relay_🇺🇸US-🇺🇸US_3758
-      - US_1407
+      - Relay_🇨🇳CN-🇰🇷KR_453
+      - US_2554
+      - US_2952
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇸🇬SG_633
+      - Relay_🇨🇳CN-🇸🇬SG_490
+      - JP_1051
+      - JP_1089
+      - Relay_🇨🇳 CN-🇺🇸US_576
+      - JP_1085
+      - JP_1108
+      - Relay_🇸🇬SG-🇨🇦CA_1798
+      - Relay_🇺🇸US-🇺🇸US_3799
+      - SG_1737
+      - SG_1767
+      - SG_1684
+      - US_2142
+      - US_2091
+      - US_3083
+      - US_3457
+      - US_3324
+      - US_2365
+      - US_2355
+      - US_2231
+      - SG_1803
+      - US_3655
+      - US_2088
+      - US_2665
+      - US_2927
+      - US_3369
+      - US_3046
+      - US_2058
+      - US_2362
+      - US_3420
+      - US_2384
+      - US_3515
+      - US_3490
+      - US_2922
+      - US_2984
+      - US_3152
+      - US_3618
+      - SG_861
+      - US_3431
+      - US_3271
+      - US_1972
+      - US_2882
+      - US_2574
+      - US_2210
+      - US_2481
+      - US_2837
+      - Relay_🇺🇸US-🇺🇸US_1976
+      - US_2678
+      - US_2510
+      - US_3482
+      - US_2607
+      - US_2634
+      - US_3196
+      - US_2915
+      - US_1989
+      - US_2301
+      - US_2719
+      - US_2820
+      - US_2386
+      - US_2690
+      - US_1825
       - US_1823
-      - US_1856
+      - US_2684
+      - US_2893
+      - Relay_🇸🇬SG-🇨🇦CA_1799
+      - Relay_🇺🇸US-🇯🇵JP_3785
+      - US_3450
+      - US_1889
+      - US_2224
+      - US_2017
+      - US_2286
+      - US_2480
+      - US_2035
+      - US_2401
+      - US_3049
+      - US_2255
+      - US_2483
+      - _GB_英国
+      - Relay_🇺🇸US-🇺🇸US_3780
+      - JP_1090
       - Relay_🇺🇸US-🇷🇺RU_3774
-      - Relay_🇺🇸US-🇺🇸US_3758
-      - US_1407
+      - Relay_🇨🇳CN-🇰🇷KR_453
+      - US_2554
+      - US_2952
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,11 +376,90 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇸🇬SG_633
+      - Relay_🇨🇳CN-🇸🇬SG_490
+      - JP_1051
+      - JP_1089
+      - Relay_🇨🇳 CN-🇺🇸US_576
+      - JP_1085
+      - JP_1108
+      - Relay_🇸🇬SG-🇨🇦CA_1798
+      - Relay_🇺🇸US-🇺🇸US_3799
+      - SG_1737
+      - SG_1767
+      - SG_1684
+      - US_2142
+      - US_2091
+      - US_3083
+      - US_3457
+      - US_3324
+      - US_2365
+      - US_2355
+      - US_2231
+      - SG_1803
+      - US_3655
+      - US_2088
+      - US_2665
+      - US_2927
+      - US_3369
+      - US_3046
+      - US_2058
+      - US_2362
+      - US_3420
+      - US_2384
+      - US_3515
+      - US_3490
+      - US_2922
+      - US_2984
+      - US_3152
+      - US_3618
+      - SG_861
+      - US_3431
+      - US_3271
+      - US_1972
+      - US_2882
+      - US_2574
+      - US_2210
+      - US_2481
+      - US_2837
+      - Relay_🇺🇸US-🇺🇸US_1976
+      - US_2678
+      - US_2510
+      - US_3482
+      - US_2607
+      - US_2634
+      - US_3196
+      - US_2915
+      - US_1989
+      - US_2301
+      - US_2719
+      - US_2820
+      - US_2386
+      - US_2690
+      - US_1825
       - US_1823
-      - US_1856
+      - US_2684
+      - US_2893
+      - Relay_🇸🇬SG-🇨🇦CA_1799
+      - Relay_🇺🇸US-🇯🇵JP_3785
+      - US_3450
+      - US_1889
+      - US_2224
+      - US_2017
+      - US_2286
+      - US_2480
+      - US_2035
+      - US_2401
+      - US_3049
+      - US_2255
+      - US_2483
+      - _GB_英国
+      - Relay_🇺🇸US-🇺🇸US_3780
+      - JP_1090
       - Relay_🇺🇸US-🇷🇺RU_3774
-      - Relay_🇺🇸US-🇺🇸US_3758
-      - US_1407
+      - Relay_🇨🇳CN-🇰🇷KR_453
+      - US_2554
+      - US_2952
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -75,32 +470,269 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Relay_🇨🇳CN-🇸🇬SG_633
+      - Relay_🇨🇳CN-🇸🇬SG_490
+      - JP_1051
+      - JP_1089
+      - Relay_🇨🇳 CN-🇺🇸US_576
+      - JP_1085
+      - JP_1108
+      - Relay_🇸🇬SG-🇨🇦CA_1798
+      - Relay_🇺🇸US-🇺🇸US_3799
+      - SG_1737
+      - SG_1767
+      - SG_1684
+      - US_2142
+      - US_2091
+      - US_3083
+      - US_3457
+      - US_3324
+      - US_2365
+      - US_2355
+      - US_2231
+      - SG_1803
+      - US_3655
+      - US_2088
+      - US_2665
+      - US_2927
+      - US_3369
+      - US_3046
+      - US_2058
+      - US_2362
+      - US_3420
+      - US_2384
+      - US_3515
+      - US_3490
+      - US_2922
+      - US_2984
+      - US_3152
+      - US_3618
+      - SG_861
+      - US_3431
+      - US_3271
+      - US_1972
+      - US_2882
+      - US_2574
+      - US_2210
+      - US_2481
+      - US_2837
+      - Relay_🇺🇸US-🇺🇸US_1976
+      - US_2678
+      - US_2510
+      - US_3482
+      - US_2607
+      - US_2634
+      - US_3196
+      - US_2915
+      - US_1989
+      - US_2301
+      - US_2719
+      - US_2820
+      - US_2386
+      - US_2690
+      - US_1825
       - US_1823
-      - US_1856
+      - US_2684
+      - US_2893
+      - Relay_🇸🇬SG-🇨🇦CA_1799
+      - Relay_🇺🇸US-🇯🇵JP_3785
+      - US_3450
+      - US_1889
+      - US_2224
+      - US_2017
+      - US_2286
+      - US_2480
+      - US_2035
+      - US_2401
+      - US_3049
+      - US_2255
+      - US_2483
+      - _GB_英国
+      - Relay_🇺🇸US-🇺🇸US_3780
+      - JP_1090
       - Relay_🇺🇸US-🇷🇺RU_3774
-      - Relay_🇺🇸US-🇺🇸US_3758
-      - US_1407
+      - Relay_🇨🇳CN-🇰🇷KR_453
+      - US_2554
+      - US_2952
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇸🇬SG_633
+      - Relay_🇨🇳CN-🇸🇬SG_490
+      - JP_1051
+      - JP_1089
+      - Relay_🇨🇳 CN-🇺🇸US_576
+      - JP_1085
+      - JP_1108
+      - Relay_🇸🇬SG-🇨🇦CA_1798
+      - Relay_🇺🇸US-🇺🇸US_3799
+      - SG_1737
+      - SG_1767
+      - SG_1684
+      - US_2142
+      - US_2091
+      - US_3083
+      - US_3457
+      - US_3324
+      - US_2365
+      - US_2355
+      - US_2231
+      - SG_1803
+      - US_3655
+      - US_2088
+      - US_2665
+      - US_2927
+      - US_3369
+      - US_3046
+      - US_2058
+      - US_2362
+      - US_3420
+      - US_2384
+      - US_3515
+      - US_3490
+      - US_2922
+      - US_2984
+      - US_3152
+      - US_3618
+      - SG_861
+      - US_3431
+      - US_3271
+      - US_1972
+      - US_2882
+      - US_2574
+      - US_2210
+      - US_2481
+      - US_2837
+      - Relay_🇺🇸US-🇺🇸US_1976
+      - US_2678
+      - US_2510
+      - US_3482
+      - US_2607
+      - US_2634
+      - US_3196
+      - US_2915
+      - US_1989
+      - US_2301
+      - US_2719
+      - US_2820
+      - US_2386
+      - US_2690
+      - US_1825
       - US_1823
-      - US_1856
+      - US_2684
+      - US_2893
+      - Relay_🇸🇬SG-🇨🇦CA_1799
+      - Relay_🇺🇸US-🇯🇵JP_3785
+      - US_3450
+      - US_1889
+      - US_2224
+      - US_2017
+      - US_2286
+      - US_2480
+      - US_2035
+      - US_2401
+      - US_3049
+      - US_2255
+      - US_2483
+      - _GB_英国
+      - Relay_🇺🇸US-🇺🇸US_3780
+      - JP_1090
       - Relay_🇺🇸US-🇷🇺RU_3774
-      - Relay_🇺🇸US-🇺🇸US_3758
-      - US_1407
+      - Relay_🇨🇳CN-🇰🇷KR_453
+      - US_2554
+      - US_2952
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Relay_🇨🇳CN-🇸🇬SG_633
+      - Relay_🇨🇳CN-🇸🇬SG_490
+      - JP_1051
+      - JP_1089
+      - Relay_🇨🇳 CN-🇺🇸US_576
+      - JP_1085
+      - JP_1108
+      - Relay_🇸🇬SG-🇨🇦CA_1798
+      - Relay_🇺🇸US-🇺🇸US_3799
+      - SG_1737
+      - SG_1767
+      - SG_1684
+      - US_2142
+      - US_2091
+      - US_3083
+      - US_3457
+      - US_3324
+      - US_2365
+      - US_2355
+      - US_2231
+      - SG_1803
+      - US_3655
+      - US_2088
+      - US_2665
+      - US_2927
+      - US_3369
+      - US_3046
+      - US_2058
+      - US_2362
+      - US_3420
+      - US_2384
+      - US_3515
+      - US_3490
+      - US_2922
+      - US_2984
+      - US_3152
+      - US_3618
+      - SG_861
+      - US_3431
+      - US_3271
+      - US_1972
+      - US_2882
+      - US_2574
+      - US_2210
+      - US_2481
+      - US_2837
+      - Relay_🇺🇸US-🇺🇸US_1976
+      - US_2678
+      - US_2510
+      - US_3482
+      - US_2607
+      - US_2634
+      - US_3196
+      - US_2915
+      - US_1989
+      - US_2301
+      - US_2719
+      - US_2820
+      - US_2386
+      - US_2690
+      - US_1825
       - US_1823
-      - US_1856
+      - US_2684
+      - US_2893
+      - Relay_🇸🇬SG-🇨🇦CA_1799
+      - Relay_🇺🇸US-🇯🇵JP_3785
+      - US_3450
+      - US_1889
+      - US_2224
+      - US_2017
+      - US_2286
+      - US_2480
+      - US_2035
+      - US_2401
+      - US_3049
+      - US_2255
+      - US_2483
+      - _GB_英国
+      - Relay_🇺🇸US-🇺🇸US_3780
+      - JP_1090
       - Relay_🇺🇸US-🇷🇺RU_3774
-      - Relay_🇺🇸US-🇺🇸US_3758
-      - US_1407
+      - Relay_🇨🇳CN-🇰🇷KR_453
+      - US_2554
+      - US_2952
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +748,90 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Relay_🇨🇳CN-🇸🇬SG_633
+      - Relay_🇨🇳CN-🇸🇬SG_490
+      - JP_1051
+      - JP_1089
+      - Relay_🇨🇳 CN-🇺🇸US_576
+      - JP_1085
+      - JP_1108
+      - Relay_🇸🇬SG-🇨🇦CA_1798
+      - Relay_🇺🇸US-🇺🇸US_3799
+      - SG_1737
+      - SG_1767
+      - SG_1684
+      - US_2142
+      - US_2091
+      - US_3083
+      - US_3457
+      - US_3324
+      - US_2365
+      - US_2355
+      - US_2231
+      - SG_1803
+      - US_3655
+      - US_2088
+      - US_2665
+      - US_2927
+      - US_3369
+      - US_3046
+      - US_2058
+      - US_2362
+      - US_3420
+      - US_2384
+      - US_3515
+      - US_3490
+      - US_2922
+      - US_2984
+      - US_3152
+      - US_3618
+      - SG_861
+      - US_3431
+      - US_3271
+      - US_1972
+      - US_2882
+      - US_2574
+      - US_2210
+      - US_2481
+      - US_2837
+      - Relay_🇺🇸US-🇺🇸US_1976
+      - US_2678
+      - US_2510
+      - US_3482
+      - US_2607
+      - US_2634
+      - US_3196
+      - US_2915
+      - US_1989
+      - US_2301
+      - US_2719
+      - US_2820
+      - US_2386
+      - US_2690
+      - US_1825
       - US_1823
-      - US_1856
+      - US_2684
+      - US_2893
+      - Relay_🇸🇬SG-🇨🇦CA_1799
+      - Relay_🇺🇸US-🇯🇵JP_3785
+      - US_3450
+      - US_1889
+      - US_2224
+      - US_2017
+      - US_2286
+      - US_2480
+      - US_2035
+      - US_2401
+      - US_3049
+      - US_2255
+      - US_2483
+      - _GB_英国
+      - Relay_🇺🇸US-🇺🇸US_3780
+      - JP_1090
       - Relay_🇺🇸US-🇷🇺RU_3774
-      - Relay_🇺🇸US-🇺🇸US_3758
-      - US_1407
+      - Relay_🇨🇳CN-🇰🇷KR_453
+      - US_2554
+      - US_2952
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
