@@ -5,135 +5,215 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_749, server: 165.232.169.142, port: 29332, type: ss, cipher: aes-256-cfb, password: 1e5111699c45496da84112f35db665c4, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_508 | 7.23Mb, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 036bbf92-f490-499e-8a5e-3d14f1644d48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azhk5.mayiyun.vip}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_504, server: hk02.v2ray.xsjv2.vip, port: 80, type: vmess, uuid: 4ddcc34a-ddfd-3c8e-830b-61e625400654, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: hk02.v2ray.xsjv2.vip}, udp: true}
+  - {name: US_7001+@WangCai_1, server: 38.75.137.88, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_509 | 6.90Mb, server: cloudflare-warp.fanqiangvpn.com, port: 443, type: vmess, uuid: ee8d15c0-927d-497a-ba84-65447a790f56, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.fanqiangvpn.com, ws-headers: {Host: cloudflare-warp.fanqiangvpn.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_514 | 6.27Mb, server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_475 | 6.07Mb, server: 185.153.180.10, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: CN_8度商店 8du.shop, server: 2.hk.zz.xxxxx.x-t-fuckword.network, port: 35419, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_2133, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2117, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_2376+@WangCai_1, server: 38.75.137.88, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_8119+@WangCai_1, server: 38.75.137.88, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_5003+@WangCai_1, server: 38.75.137.88, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_5500+@WangCai_1, server: 38.75.137.88, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_9101+@WangCai_1, server: 38.75.137.88, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_6697+@WangCai_1, server: 38.75.137.88, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_3306+@WangCai_1, server: 38.75.137.88, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_8008+@WangCai_1, server: 38.75.137.88, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_5000+@WangCai_1, server: 38.75.137.88, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_3549, server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇺🇸US_1342, server: 167.88.61.236, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: Pool_🇺🇸US_1343, server: 167.88.61.236, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1122, server: 37.120.219.218, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1281, server: 37.120.147.230, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_867, server: 37.120.147.230, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_872, server: 37.120.147.230, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3605, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, ws-headers: {Host: us3.31vpn.com}, udp: true}
-  - {name: US_880, server: 37.120.147.230, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_936, server: 37.120.147.230, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_953, server: 162.251.61.221, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_940, server: 162.251.61.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_485 | 6.23Mb, server: 162.251.61.221, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_523 | 7.07Mb, server: 172.99.190.61, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_5600+@WangCai_1, server: 38.75.137.88, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2375+@WangCai_1, server: 38.75.137.88, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_0443+@WangCai_1, server: 38.75.137.88, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_5601+@WangCai_1, server: 38.75.137.88, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_499 | 8.36Mb, server: 5.181.234.254, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: US_527 | 5.43Mb, server: 172.99.190.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_529 | 6.29Mb, server: 172.99.190.61, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_524 | 7.82Mb, server: 167.88.63.44, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_8080+@WangCai_1, server: 134.195.196.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_8888+@WangCai_1, server: 134.195.196.205, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_8091+@WangCai_1, server: 38.75.137.88, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_8119+@WangCai_1, server: 134.195.196.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: US_528 | 6.93Mb, server: 172.99.190.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_956, server: 38.91.107.225, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_994, server: 38.91.107.225, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1242, server: 38.91.107.225, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1030, server: 38.91.107.225, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_526 | 7.08Mb, server: 172.99.190.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_8090+@WangCai_1, server: 134.195.196.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_0443+@WangCai_1, server: 134.195.196.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ‌‌🇨🇦CA_5601+@WangCai_1, server: 134.195.196.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_0443+@WangCai_1 2, server: 167.88.63.5, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ‌‌🇨🇦CA_5004+@WangCai_1, server: 134.195.196.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_7306+@WangCai_1, server: 134.195.196.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_529 | 6.29Mb, server: 172.99.190.61, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ‌‌🇨🇦CA_6379+@WangCai_1, server: 134.195.196.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ‌‌🇨🇦CA_5001+@WangCai_1, server: 134.195.196.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_501 | 4.13Mb, server: 167.88.63.5, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: US_522 | 1.68Mb, server: 135.125.236.229, port: 50007, type: ss, cipher: aes-256-cfb, password: !<str> 7122910143, udp: true}
-  - {name: US_876, server: 37.120.147.230, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: ‌‌🇨🇦CA_9101+@WangCai_1, server: 134.195.196.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: US_530 | 5.65Mb, server: 172.99.190.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_526 | 7.08Mb, server: 172.99.190.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_8090+@WangCai_1, server: 38.75.137.88, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_9102+@WangCai_1, server: 38.75.137.88, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_745, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_8118+@WangCai_1, server: 134.195.196.168, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_749
+      - Relay_🇺🇸US-🇺🇸US_508 | 7.23Mb
+      - Relay_🇺🇸US-🇺🇸US_504
+      - US_7001+@WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_509 | 6.90Mb
+      - Relay_🇺🇸US-🇺🇸US_514 | 6.27Mb
+      - US_475 | 6.07Mb
+      - CN_8度商店 8du.shop
       - Relay_🇺🇸US-🇺🇸US_2133
+      - Relay_🇺🇸US-🇺🇸US_2117
+      - US_2376+@WangCai_1
+      - US_8119+@WangCai_1
+      - US_5003+@WangCai_1
+      - US_5500+@WangCai_1
+      - US_9101+@WangCai_1
+      - US_6697+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_8008+@WangCai_1
+      - US_5000+@WangCai_1
       - Relay_🇺🇸US-🇺🇸US_3549
-      - Pool_🇺🇸US_1342
-      - Pool_🇺🇸US_1343
-      - US_1122
-      - US_1281
-      - US_867
-      - US_872
-      - Relay_🇺🇸US-🇺🇸US_3605
-      - US_880
-      - US_936
-      - US_953
-      - US_940
-      - US_485 | 6.23Mb
-      - US_523 | 7.07Mb
+      - US_5600+@WangCai_1
+      - US_2375+@WangCai_1
+      - US_0443+@WangCai_1
+      - US_5601+@WangCai_1
+      - US_499 | 8.36Mb
       - US_527 | 5.43Mb
-      - US_529 | 6.29Mb
-      - US_524 | 7.82Mb
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - US_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
       - US_528 | 6.93Mb
-      - US_956
-      - US_994
-      - US_1242
-      - US_1030
-      - US_526 | 7.08Mb
+      - ‌‌🇨🇦CA_8090+@WangCai_1
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_5601+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_7306+@WangCai_1
+      - US_529 | 6.29Mb
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_5001+@WangCai_1
+      - US_501 | 4.13Mb
       - US_522 | 1.68Mb
-      - US_876
+      - ‌‌🇨🇦CA_9101+@WangCai_1
       - US_530 | 5.65Mb
+      - US_526 | 7.08Mb
+      - US_8090+@WangCai_1
+      - US_9102+@WangCai_1
+      - US_745
+      - ‌‌🇨🇦CA_8118+@WangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_749
+      - Relay_🇺🇸US-🇺🇸US_508 | 7.23Mb
+      - Relay_🇺🇸US-🇺🇸US_504
+      - US_7001+@WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_509 | 6.90Mb
+      - Relay_🇺🇸US-🇺🇸US_514 | 6.27Mb
+      - US_475 | 6.07Mb
+      - CN_8度商店 8du.shop
       - Relay_🇺🇸US-🇺🇸US_2133
+      - Relay_🇺🇸US-🇺🇸US_2117
+      - US_2376+@WangCai_1
+      - US_8119+@WangCai_1
+      - US_5003+@WangCai_1
+      - US_5500+@WangCai_1
+      - US_9101+@WangCai_1
+      - US_6697+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_8008+@WangCai_1
+      - US_5000+@WangCai_1
       - Relay_🇺🇸US-🇺🇸US_3549
-      - Pool_🇺🇸US_1342
-      - Pool_🇺🇸US_1343
-      - US_1122
-      - US_1281
-      - US_867
-      - US_872
-      - Relay_🇺🇸US-🇺🇸US_3605
-      - US_880
-      - US_936
-      - US_953
-      - US_940
-      - US_485 | 6.23Mb
-      - US_523 | 7.07Mb
+      - US_5600+@WangCai_1
+      - US_2375+@WangCai_1
+      - US_0443+@WangCai_1
+      - US_5601+@WangCai_1
+      - US_499 | 8.36Mb
       - US_527 | 5.43Mb
-      - US_529 | 6.29Mb
-      - US_524 | 7.82Mb
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - US_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
       - US_528 | 6.93Mb
-      - US_956
-      - US_994
-      - US_1242
-      - US_1030
-      - US_526 | 7.08Mb
+      - ‌‌🇨🇦CA_8090+@WangCai_1
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_5601+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_7306+@WangCai_1
+      - US_529 | 6.29Mb
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_5001+@WangCai_1
+      - US_501 | 4.13Mb
       - US_522 | 1.68Mb
-      - US_876
+      - ‌‌🇨🇦CA_9101+@WangCai_1
       - US_530 | 5.65Mb
+      - US_526 | 7.08Mb
+      - US_8090+@WangCai_1
+      - US_9102+@WangCai_1
+      - US_745
+      - ‌‌🇨🇦CA_8118+@WangCai_1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_749
+      - Relay_🇺🇸US-🇺🇸US_508 | 7.23Mb
+      - Relay_🇺🇸US-🇺🇸US_504
+      - US_7001+@WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_509 | 6.90Mb
+      - Relay_🇺🇸US-🇺🇸US_514 | 6.27Mb
+      - US_475 | 6.07Mb
+      - CN_8度商店 8du.shop
       - Relay_🇺🇸US-🇺🇸US_2133
+      - Relay_🇺🇸US-🇺🇸US_2117
+      - US_2376+@WangCai_1
+      - US_8119+@WangCai_1
+      - US_5003+@WangCai_1
+      - US_5500+@WangCai_1
+      - US_9101+@WangCai_1
+      - US_6697+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_8008+@WangCai_1
+      - US_5000+@WangCai_1
       - Relay_🇺🇸US-🇺🇸US_3549
-      - Pool_🇺🇸US_1342
-      - Pool_🇺🇸US_1343
-      - US_1122
-      - US_1281
-      - US_867
-      - US_872
-      - Relay_🇺🇸US-🇺🇸US_3605
-      - US_880
-      - US_936
-      - US_953
-      - US_940
-      - US_485 | 6.23Mb
-      - US_523 | 7.07Mb
+      - US_5600+@WangCai_1
+      - US_2375+@WangCai_1
+      - US_0443+@WangCai_1
+      - US_5601+@WangCai_1
+      - US_499 | 8.36Mb
       - US_527 | 5.43Mb
-      - US_529 | 6.29Mb
-      - US_524 | 7.82Mb
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - US_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
       - US_528 | 6.93Mb
-      - US_956
-      - US_994
-      - US_1242
-      - US_1030
-      - US_526 | 7.08Mb
+      - ‌‌🇨🇦CA_8090+@WangCai_1
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_5601+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_7306+@WangCai_1
+      - US_529 | 6.29Mb
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_5001+@WangCai_1
+      - US_501 | 4.13Mb
       - US_522 | 1.68Mb
-      - US_876
+      - ‌‌🇨🇦CA_9101+@WangCai_1
       - US_530 | 5.65Mb
+      - US_526 | 7.08Mb
+      - US_8090+@WangCai_1
+      - US_9102+@WangCai_1
+      - US_745
+      - ‌‌🇨🇦CA_8118+@WangCai_1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -152,34 +232,54 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_749
+      - Relay_🇺🇸US-🇺🇸US_508 | 7.23Mb
+      - Relay_🇺🇸US-🇺🇸US_504
+      - US_7001+@WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_509 | 6.90Mb
+      - Relay_🇺🇸US-🇺🇸US_514 | 6.27Mb
+      - US_475 | 6.07Mb
+      - CN_8度商店 8du.shop
       - Relay_🇺🇸US-🇺🇸US_2133
+      - Relay_🇺🇸US-🇺🇸US_2117
+      - US_2376+@WangCai_1
+      - US_8119+@WangCai_1
+      - US_5003+@WangCai_1
+      - US_5500+@WangCai_1
+      - US_9101+@WangCai_1
+      - US_6697+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_8008+@WangCai_1
+      - US_5000+@WangCai_1
       - Relay_🇺🇸US-🇺🇸US_3549
-      - Pool_🇺🇸US_1342
-      - Pool_🇺🇸US_1343
-      - US_1122
-      - US_1281
-      - US_867
-      - US_872
-      - Relay_🇺🇸US-🇺🇸US_3605
-      - US_880
-      - US_936
-      - US_953
-      - US_940
-      - US_485 | 6.23Mb
-      - US_523 | 7.07Mb
+      - US_5600+@WangCai_1
+      - US_2375+@WangCai_1
+      - US_0443+@WangCai_1
+      - US_5601+@WangCai_1
+      - US_499 | 8.36Mb
       - US_527 | 5.43Mb
-      - US_529 | 6.29Mb
-      - US_524 | 7.82Mb
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - US_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
       - US_528 | 6.93Mb
-      - US_956
-      - US_994
-      - US_1242
-      - US_1030
-      - US_526 | 7.08Mb
+      - ‌‌🇨🇦CA_8090+@WangCai_1
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_5601+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_7306+@WangCai_1
+      - US_529 | 6.29Mb
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_5001+@WangCai_1
+      - US_501 | 4.13Mb
       - US_522 | 1.68Mb
-      - US_876
+      - ‌‌🇨🇦CA_9101+@WangCai_1
       - US_530 | 5.65Mb
+      - US_526 | 7.08Mb
+      - US_8090+@WangCai_1
+      - US_9102+@WangCai_1
+      - US_745
+      - ‌‌🇨🇦CA_8118+@WangCai_1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -190,101 +290,161 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_749
+      - Relay_🇺🇸US-🇺🇸US_508 | 7.23Mb
+      - Relay_🇺🇸US-🇺🇸US_504
+      - US_7001+@WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_509 | 6.90Mb
+      - Relay_🇺🇸US-🇺🇸US_514 | 6.27Mb
+      - US_475 | 6.07Mb
+      - CN_8度商店 8du.shop
       - Relay_🇺🇸US-🇺🇸US_2133
+      - Relay_🇺🇸US-🇺🇸US_2117
+      - US_2376+@WangCai_1
+      - US_8119+@WangCai_1
+      - US_5003+@WangCai_1
+      - US_5500+@WangCai_1
+      - US_9101+@WangCai_1
+      - US_6697+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_8008+@WangCai_1
+      - US_5000+@WangCai_1
       - Relay_🇺🇸US-🇺🇸US_3549
-      - Pool_🇺🇸US_1342
-      - Pool_🇺🇸US_1343
-      - US_1122
-      - US_1281
-      - US_867
-      - US_872
-      - Relay_🇺🇸US-🇺🇸US_3605
-      - US_880
-      - US_936
-      - US_953
-      - US_940
-      - US_485 | 6.23Mb
-      - US_523 | 7.07Mb
+      - US_5600+@WangCai_1
+      - US_2375+@WangCai_1
+      - US_0443+@WangCai_1
+      - US_5601+@WangCai_1
+      - US_499 | 8.36Mb
       - US_527 | 5.43Mb
-      - US_529 | 6.29Mb
-      - US_524 | 7.82Mb
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - US_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
       - US_528 | 6.93Mb
-      - US_956
-      - US_994
-      - US_1242
-      - US_1030
-      - US_526 | 7.08Mb
+      - ‌‌🇨🇦CA_8090+@WangCai_1
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_5601+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_7306+@WangCai_1
+      - US_529 | 6.29Mb
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_5001+@WangCai_1
+      - US_501 | 4.13Mb
       - US_522 | 1.68Mb
-      - US_876
+      - ‌‌🇨🇦CA_9101+@WangCai_1
       - US_530 | 5.65Mb
+      - US_526 | 7.08Mb
+      - US_8090+@WangCai_1
+      - US_9102+@WangCai_1
+      - US_745
+      - ‌‌🇨🇦CA_8118+@WangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_749
+      - Relay_🇺🇸US-🇺🇸US_508 | 7.23Mb
+      - Relay_🇺🇸US-🇺🇸US_504
+      - US_7001+@WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_509 | 6.90Mb
+      - Relay_🇺🇸US-🇺🇸US_514 | 6.27Mb
+      - US_475 | 6.07Mb
+      - CN_8度商店 8du.shop
       - Relay_🇺🇸US-🇺🇸US_2133
+      - Relay_🇺🇸US-🇺🇸US_2117
+      - US_2376+@WangCai_1
+      - US_8119+@WangCai_1
+      - US_5003+@WangCai_1
+      - US_5500+@WangCai_1
+      - US_9101+@WangCai_1
+      - US_6697+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_8008+@WangCai_1
+      - US_5000+@WangCai_1
       - Relay_🇺🇸US-🇺🇸US_3549
-      - Pool_🇺🇸US_1342
-      - Pool_🇺🇸US_1343
-      - US_1122
-      - US_1281
-      - US_867
-      - US_872
-      - Relay_🇺🇸US-🇺🇸US_3605
-      - US_880
-      - US_936
-      - US_953
-      - US_940
-      - US_485 | 6.23Mb
-      - US_523 | 7.07Mb
+      - US_5600+@WangCai_1
+      - US_2375+@WangCai_1
+      - US_0443+@WangCai_1
+      - US_5601+@WangCai_1
+      - US_499 | 8.36Mb
       - US_527 | 5.43Mb
-      - US_529 | 6.29Mb
-      - US_524 | 7.82Mb
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - US_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
       - US_528 | 6.93Mb
-      - US_956
-      - US_994
-      - US_1242
-      - US_1030
-      - US_526 | 7.08Mb
+      - ‌‌🇨🇦CA_8090+@WangCai_1
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_5601+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_7306+@WangCai_1
+      - US_529 | 6.29Mb
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_5001+@WangCai_1
+      - US_501 | 4.13Mb
       - US_522 | 1.68Mb
-      - US_876
+      - ‌‌🇨🇦CA_9101+@WangCai_1
       - US_530 | 5.65Mb
+      - US_526 | 7.08Mb
+      - US_8090+@WangCai_1
+      - US_9102+@WangCai_1
+      - US_745
+      - ‌‌🇨🇦CA_8118+@WangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_749
+      - Relay_🇺🇸US-🇺🇸US_508 | 7.23Mb
+      - Relay_🇺🇸US-🇺🇸US_504
+      - US_7001+@WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_509 | 6.90Mb
+      - Relay_🇺🇸US-🇺🇸US_514 | 6.27Mb
+      - US_475 | 6.07Mb
+      - CN_8度商店 8du.shop
       - Relay_🇺🇸US-🇺🇸US_2133
+      - Relay_🇺🇸US-🇺🇸US_2117
+      - US_2376+@WangCai_1
+      - US_8119+@WangCai_1
+      - US_5003+@WangCai_1
+      - US_5500+@WangCai_1
+      - US_9101+@WangCai_1
+      - US_6697+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_8008+@WangCai_1
+      - US_5000+@WangCai_1
       - Relay_🇺🇸US-🇺🇸US_3549
-      - Pool_🇺🇸US_1342
-      - Pool_🇺🇸US_1343
-      - US_1122
-      - US_1281
-      - US_867
-      - US_872
-      - Relay_🇺🇸US-🇺🇸US_3605
-      - US_880
-      - US_936
-      - US_953
-      - US_940
-      - US_485 | 6.23Mb
-      - US_523 | 7.07Mb
+      - US_5600+@WangCai_1
+      - US_2375+@WangCai_1
+      - US_0443+@WangCai_1
+      - US_5601+@WangCai_1
+      - US_499 | 8.36Mb
       - US_527 | 5.43Mb
-      - US_529 | 6.29Mb
-      - US_524 | 7.82Mb
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - US_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
       - US_528 | 6.93Mb
-      - US_956
-      - US_994
-      - US_1242
-      - US_1030
-      - US_526 | 7.08Mb
+      - ‌‌🇨🇦CA_8090+@WangCai_1
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_5601+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_7306+@WangCai_1
+      - US_529 | 6.29Mb
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_5001+@WangCai_1
+      - US_501 | 4.13Mb
       - US_522 | 1.68Mb
-      - US_876
+      - ‌‌🇨🇦CA_9101+@WangCai_1
       - US_530 | 5.65Mb
+      - US_526 | 7.08Mb
+      - US_8090+@WangCai_1
+      - US_9102+@WangCai_1
+      - US_745
+      - ‌‌🇨🇦CA_8118+@WangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -300,34 +460,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_749
+      - Relay_🇺🇸US-🇺🇸US_508 | 7.23Mb
+      - Relay_🇺🇸US-🇺🇸US_504
+      - US_7001+@WangCai_1
+      - Relay_🇺🇸US-🇺🇸US_509 | 6.90Mb
+      - Relay_🇺🇸US-🇺🇸US_514 | 6.27Mb
+      - US_475 | 6.07Mb
+      - CN_8度商店 8du.shop
       - Relay_🇺🇸US-🇺🇸US_2133
+      - Relay_🇺🇸US-🇺🇸US_2117
+      - US_2376+@WangCai_1
+      - US_8119+@WangCai_1
+      - US_5003+@WangCai_1
+      - US_5500+@WangCai_1
+      - US_9101+@WangCai_1
+      - US_6697+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_8008+@WangCai_1
+      - US_5000+@WangCai_1
       - Relay_🇺🇸US-🇺🇸US_3549
-      - Pool_🇺🇸US_1342
-      - Pool_🇺🇸US_1343
-      - US_1122
-      - US_1281
-      - US_867
-      - US_872
-      - Relay_🇺🇸US-🇺🇸US_3605
-      - US_880
-      - US_936
-      - US_953
-      - US_940
-      - US_485 | 6.23Mb
-      - US_523 | 7.07Mb
+      - US_5600+@WangCai_1
+      - US_2375+@WangCai_1
+      - US_0443+@WangCai_1
+      - US_5601+@WangCai_1
+      - US_499 | 8.36Mb
       - US_527 | 5.43Mb
-      - US_529 | 6.29Mb
-      - US_524 | 7.82Mb
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - US_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
       - US_528 | 6.93Mb
-      - US_956
-      - US_994
-      - US_1242
-      - US_1030
-      - US_526 | 7.08Mb
+      - ‌‌🇨🇦CA_8090+@WangCai_1
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_5601+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_7306+@WangCai_1
+      - US_529 | 6.29Mb
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_5001+@WangCai_1
+      - US_501 | 4.13Mb
       - US_522 | 1.68Mb
-      - US_876
+      - ‌‌🇨🇦CA_9101+@WangCai_1
       - US_530 | 5.65Mb
+      - US_526 | 7.08Mb
+      - US_8090+@WangCai_1
+      - US_9102+@WangCai_1
+      - US_745
+      - ‌‌🇨🇦CA_8118+@WangCai_1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
