@@ -5,475 +5,111 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ‌‌🇨🇦CA_8080+@WangCai_1, server: 134.195.196.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_573, server: cm1-kr.hutaod.me, port: 12136, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_554, server: cm1-jp.hutaod.me, port: 12033, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_566, server: cm1-us.hutaod.me, port: 12233, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_1541, server: 173.82.251.240, port: 2233, type: vmess, uuid: 1e3847e6-755a-4964-9845-4ac53e39b23c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.82.251.240}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_553, server: cm1-us.hutaod.me, port: 12232, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_436, server: cm1-us.hutaod.me, port: 12231, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_2601, server: 38.114.114.67, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_2741, server: 167.88.61.70, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1771, server: 38.75.136.102, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1093, server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1529, server: 167.88.63.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1533, server: 167.88.63.82, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_437, server: cm1-us.hutaod.me, port: 12234, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_428, server: cm1-us.hutaod.me, port: 12232, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇰🇷KR_337, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_2376, server: 172.99.190.35, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1756, server: 158.247.219.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2078, server: 167.88.61.70, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_475 | 6.07Mb, server: 185.153.180.10, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_427, server: cm1-kr.hutaod.me, port: 12136, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_429, server: cm1-jp.hutaod.me, port: 12032, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_2022, server: 167.88.61.70, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1053, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1386, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1091, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1111, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2068, server: 167.88.61.70, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1920, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_2013, server: 167.88.61.70, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_2011, server: 167.88.61.70, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_2038, server: 167.88.61.70, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1392, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_2017, server: 167.88.61.70, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_2074, server: 167.88.61.70, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_2743, server: 38.75.136.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_2634, server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1918, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_2012, server: 167.88.61.70, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1043, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_2010, server: 167.88.61.70, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_2014, server: 167.88.61.70, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_2015, server: 167.88.61.70, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_2016, server: 167.88.61.70, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_2069, server: 167.88.61.70, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_2701, server: 167.88.61.70, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_3075, server: 38.114.114.67, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_3172, server: 167.88.61.70, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_2726, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_2072, server: 167.88.61.70, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_2948, server: 167.88.61.70, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1402, server: 167.88.63.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_2951, server: 38.114.114.69, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_2921, server: 38.75.136.102, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_2949, server: 38.114.114.69, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_2339, server: 38.114.114.67, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1787, server: 38.114.114.69, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_1023, server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_2353, server: 38.75.136.102, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1683, server: 38.75.136.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_907, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1026, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_2060, server: 38.75.136.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1382, server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1168, server: 38.75.136.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1083, server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1287, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_2480, server: 38.114.114.67, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1645, server: 38.114.114.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_2577, server: 172.99.190.153, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1952, server: 167.88.63.82, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1953, server: 38.114.114.67, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_2721, server: 172.99.190.153, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1577, server: 172.99.190.35, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2435, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1511, server: 167.88.63.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_2056, server: 172.99.190.153, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_3326, server: 172.99.190.35, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1273, server: 167.88.63.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1531, server: 167.88.63.82, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_2369, server: 172.99.190.35, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_2422, server: 172.99.190.35, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1432, server: 167.88.63.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_2461, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_2979, server: 38.114.114.67, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1072, server: 38.114.114.69, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1739, server: 167.88.63.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ‌‌🇨🇦CA_8090+@WangCai_1, server: 134.195.196.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1976, server: 38.91.100.134, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_2021, server: 38.114.114.69, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2102, server: 38.91.100.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_2384, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ‌‌🇨🇦CA_0443+@WangCai_1, server: 134.195.196.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ‌‌🇨🇦CA_5601+@WangCai_1, server: 134.195.196.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1326, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1759, server: 172.99.190.35, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1535, server: 167.88.63.82, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1699, server: 172.99.190.35, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1756 2, server: 38.114.114.69, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ‌‌🇨🇦CA_6379+@WangCai_1, server: 134.195.196.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ‌‌🇨🇦CA_8009+@WangCai_1, server: 134.195.196.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ‌‌🇨🇦CA_5004+@WangCai_1, server: 134.195.196.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1076, server: 172.99.190.153, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ‌‌🇨🇦CA_9101+@WangCai_1, server: 134.195.196.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_438, server: cm1-jp.hutaod.me, port: 12033, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_1529 2, server: 167.88.63.82, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ‌‌🇨🇦CA_8888+@WangCai_1, server: 134.195.196.205, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1534, server: 167.88.63.82, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1212, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_3179, server: 38.114.114.67, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ‌‌🇨🇦CA_8119+@WangCai_1, server: 134.195.196.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1119, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: SG_1465, server: 45.118.133.51, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 8度商店：8du.shop, server: 116.129.254.33, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 2, server: 116.129.254.65, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 3, server: 120.232.82.139, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 4, server: 116.129.254.33, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 5, server: 112.64.53.217, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 6, server: 159.27.115.21, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3454, server: zz.vip341.xyz, port: 48008, type: vmess, uuid: ffa9a7b3-3697-3887-a6f3-b02191018941, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: zz.vip341.xyz}, udp: true}
+  - {name: US_1506 |74.71Mb, server: 45.32.77.103, port: 22192, type: vmess, uuid: a22653d2-bcbc-4be7-81fb-0272aa4e47b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9Q2ogkOK/, ws-headers: {Host: 45.32.77.103}, udp: true}
+  - {name: 8度商店：8du.shop 7, server: 112.64.53.217, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3455, server: zz.vip341.xyz, port: 48003, type: vmess, uuid: ffa9a7b3-3697-3887-a6f3-b02191018941, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: zz.vip341.xyz}, udp: true}
+  - {name: 8度商店：8du.shop 8, server: 116.129.254.33, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 9, server: 183.232.56.108, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_3460, server: 20.230.146.155, port: 262, type: vmess, uuid: eec166d5-25d5-42d2-ce7d-83fca85d2610, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 8度商店：8du.shop 10, server: 116.129.254.65, port: 63014, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 11, server: 112.64.53.217, port: 63069, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 112.64.53.217}, udp: true}
+  - {name: 8度商店：8du.shop 12, server: 116.129.254.33, port: 63069, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 116.129.254.33}, udp: true}
+  - {name: 8度商店：8du.shop 13, server: 120.240.168.118, port: 63014, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 14, server: 120.240.168.118, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 15, server: 112.64.53.217, port: 63014, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: SG_1535, server: 157.230.41.220, port: 29596, type: ss, cipher: aes-256-cfb, password: e6c1cf51375c407d92d110881a825acb, udp: true}
+  - {name: 8度商店：8du.shop 16, server: 183.232.56.108, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8度商店：8du.shop 17, server: 116.129.254.65, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ‌‌🇨🇦CA_8080+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_573
-      - Relay_🇨🇳CN-🇯🇵JP_554
-      - Relay_🇨🇳CN-🇺🇸US_566
-      - US_1541
-      - Relay_🇨🇳CN-🇺🇸US_553
-      - Relay_🇨🇳CN-🇺🇸US_436
-      - US_2601
-      - US_2741
-      - US_1771
-      - US_1093
-      - US_1529
-      - US_1533
-      - Relay_🇨🇳CN-🇺🇸US_437
-      - Relay_🇨🇳CN-🇺🇸US_428
-      - Relay_🇨🇳CN-🇰🇷KR_337
-      - US_2376
-      - US_1756
-      - US_2078
-      - US_475 | 6.07Mb
-      - Relay_🇨🇳CN-🇯🇵JP_427
-      - Relay_🇨🇳CN-🇯🇵JP_429
-      - US_2022
-      - US_1053
-      - US_1386
-      - US_1091
-      - US_1111
-      - US_2068
-      - US_1920
-      - US_2013
-      - US_2011
-      - US_2038
-      - US_1392
-      - US_2017
-      - US_2074
-      - US_2743
-      - US_2634
-      - US_1918
-      - US_2012
-      - US_1043
-      - US_2010
-      - US_2014
-      - US_2015
-      - US_2016
-      - US_2069
-      - US_2701
-      - US_3075
-      - US_3172
-      - US_2726
-      - US_2072
-      - US_2948
-      - US_1402
-      - US_2951
-      - US_2921
-      - US_2949
-      - US_2339
-      - US_1787
-      - US_1023
-      - US_2353
-      - US_1683
-      - US_907
-      - US_1026
-      - US_2060
-      - US_1382
-      - US_1168
-      - US_1083
-      - US_1287
-      - US_2480
-      - US_1645
-      - US_2577
-      - US_1952
-      - US_1953
-      - US_2721
-      - US_1577
-      - US_2435
-      - US_1511
-      - US_2056
-      - US_3326
-      - US_1273
-      - US_1531
-      - US_2369
-      - US_2422
-      - US_1432
-      - US_2461
-      - US_2979
-      - US_1072
-      - US_1739
-      - ‌‌🇨🇦CA_8090+@WangCai_1
-      - US_1976
-      - US_2021
-      - US_2102
-      - US_2384
-      - ‌‌🇨🇦CA_0443+@WangCai_1
-      - ‌‌🇨🇦CA_5601+@WangCai_1
-      - US_1326
-      - US_1759
-      - US_1535
-      - US_1699
-      - US_1756 2
-      - ‌‌🇨🇦CA_6379+@WangCai_1
-      - ‌‌🇨🇦CA_8009+@WangCai_1
-      - ‌‌🇨🇦CA_5004+@WangCai_1
-      - US_1076
-      - ‌‌🇨🇦CA_9101+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_438
-      - US_1529 2
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - US_1534
-      - US_1212
-      - US_3179
-      - ‌‌🇨🇦CA_8119+@WangCai_1
-      - US_1119
-      - SG_1465
+      - 8度商店：8du.shop
+      - 8度商店：8du.shop 2
+      - 8度商店：8du.shop 3
+      - 8度商店：8du.shop 4
+      - 8度商店：8du.shop 5
+      - 8度商店：8du.shop 6
+      - Relay_🇺🇸US-🇺🇸US_3454
+      - US_1506 |74.71Mb
+      - 8度商店：8du.shop 7
+      - Relay_🇺🇸US-🇺🇸US_3455
+      - 8度商店：8du.shop 8
+      - 8度商店：8du.shop 9
+      - US_3460
+      - 8度商店：8du.shop 10
+      - 8度商店：8du.shop 11
+      - 8度商店：8du.shop 12
+      - 8度商店：8du.shop 13
+      - 8度商店：8du.shop 14
+      - 8度商店：8du.shop 15
+      - SG_1535
+      - 8度商店：8du.shop 16
+      - 8度商店：8du.shop 17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - ‌‌🇨🇦CA_8080+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_573
-      - Relay_🇨🇳CN-🇯🇵JP_554
-      - Relay_🇨🇳CN-🇺🇸US_566
-      - US_1541
-      - Relay_🇨🇳CN-🇺🇸US_553
-      - Relay_🇨🇳CN-🇺🇸US_436
-      - US_2601
-      - US_2741
-      - US_1771
-      - US_1093
-      - US_1529
-      - US_1533
-      - Relay_🇨🇳CN-🇺🇸US_437
-      - Relay_🇨🇳CN-🇺🇸US_428
-      - Relay_🇨🇳CN-🇰🇷KR_337
-      - US_2376
-      - US_1756
-      - US_2078
-      - US_475 | 6.07Mb
-      - Relay_🇨🇳CN-🇯🇵JP_427
-      - Relay_🇨🇳CN-🇯🇵JP_429
-      - US_2022
-      - US_1053
-      - US_1386
-      - US_1091
-      - US_1111
-      - US_2068
-      - US_1920
-      - US_2013
-      - US_2011
-      - US_2038
-      - US_1392
-      - US_2017
-      - US_2074
-      - US_2743
-      - US_2634
-      - US_1918
-      - US_2012
-      - US_1043
-      - US_2010
-      - US_2014
-      - US_2015
-      - US_2016
-      - US_2069
-      - US_2701
-      - US_3075
-      - US_3172
-      - US_2726
-      - US_2072
-      - US_2948
-      - US_1402
-      - US_2951
-      - US_2921
-      - US_2949
-      - US_2339
-      - US_1787
-      - US_1023
-      - US_2353
-      - US_1683
-      - US_907
-      - US_1026
-      - US_2060
-      - US_1382
-      - US_1168
-      - US_1083
-      - US_1287
-      - US_2480
-      - US_1645
-      - US_2577
-      - US_1952
-      - US_1953
-      - US_2721
-      - US_1577
-      - US_2435
-      - US_1511
-      - US_2056
-      - US_3326
-      - US_1273
-      - US_1531
-      - US_2369
-      - US_2422
-      - US_1432
-      - US_2461
-      - US_2979
-      - US_1072
-      - US_1739
-      - ‌‌🇨🇦CA_8090+@WangCai_1
-      - US_1976
-      - US_2021
-      - US_2102
-      - US_2384
-      - ‌‌🇨🇦CA_0443+@WangCai_1
-      - ‌‌🇨🇦CA_5601+@WangCai_1
-      - US_1326
-      - US_1759
-      - US_1535
-      - US_1699
-      - US_1756 2
-      - ‌‌🇨🇦CA_6379+@WangCai_1
-      - ‌‌🇨🇦CA_8009+@WangCai_1
-      - ‌‌🇨🇦CA_5004+@WangCai_1
-      - US_1076
-      - ‌‌🇨🇦CA_9101+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_438
-      - US_1529 2
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - US_1534
-      - US_1212
-      - US_3179
-      - ‌‌🇨🇦CA_8119+@WangCai_1
-      - US_1119
-      - SG_1465
+      - 8度商店：8du.shop
+      - 8度商店：8du.shop 2
+      - 8度商店：8du.shop 3
+      - 8度商店：8du.shop 4
+      - 8度商店：8du.shop 5
+      - 8度商店：8du.shop 6
+      - Relay_🇺🇸US-🇺🇸US_3454
+      - US_1506 |74.71Mb
+      - 8度商店：8du.shop 7
+      - Relay_🇺🇸US-🇺🇸US_3455
+      - 8度商店：8du.shop 8
+      - 8度商店：8du.shop 9
+      - US_3460
+      - 8度商店：8du.shop 10
+      - 8度商店：8du.shop 11
+      - 8度商店：8du.shop 12
+      - 8度商店：8du.shop 13
+      - 8度商店：8du.shop 14
+      - 8度商店：8du.shop 15
+      - SG_1535
+      - 8度商店：8du.shop 16
+      - 8度商店：8du.shop 17
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ‌‌🇨🇦CA_8080+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_573
-      - Relay_🇨🇳CN-🇯🇵JP_554
-      - Relay_🇨🇳CN-🇺🇸US_566
-      - US_1541
-      - Relay_🇨🇳CN-🇺🇸US_553
-      - Relay_🇨🇳CN-🇺🇸US_436
-      - US_2601
-      - US_2741
-      - US_1771
-      - US_1093
-      - US_1529
-      - US_1533
-      - Relay_🇨🇳CN-🇺🇸US_437
-      - Relay_🇨🇳CN-🇺🇸US_428
-      - Relay_🇨🇳CN-🇰🇷KR_337
-      - US_2376
-      - US_1756
-      - US_2078
-      - US_475 | 6.07Mb
-      - Relay_🇨🇳CN-🇯🇵JP_427
-      - Relay_🇨🇳CN-🇯🇵JP_429
-      - US_2022
-      - US_1053
-      - US_1386
-      - US_1091
-      - US_1111
-      - US_2068
-      - US_1920
-      - US_2013
-      - US_2011
-      - US_2038
-      - US_1392
-      - US_2017
-      - US_2074
-      - US_2743
-      - US_2634
-      - US_1918
-      - US_2012
-      - US_1043
-      - US_2010
-      - US_2014
-      - US_2015
-      - US_2016
-      - US_2069
-      - US_2701
-      - US_3075
-      - US_3172
-      - US_2726
-      - US_2072
-      - US_2948
-      - US_1402
-      - US_2951
-      - US_2921
-      - US_2949
-      - US_2339
-      - US_1787
-      - US_1023
-      - US_2353
-      - US_1683
-      - US_907
-      - US_1026
-      - US_2060
-      - US_1382
-      - US_1168
-      - US_1083
-      - US_1287
-      - US_2480
-      - US_1645
-      - US_2577
-      - US_1952
-      - US_1953
-      - US_2721
-      - US_1577
-      - US_2435
-      - US_1511
-      - US_2056
-      - US_3326
-      - US_1273
-      - US_1531
-      - US_2369
-      - US_2422
-      - US_1432
-      - US_2461
-      - US_2979
-      - US_1072
-      - US_1739
-      - ‌‌🇨🇦CA_8090+@WangCai_1
-      - US_1976
-      - US_2021
-      - US_2102
-      - US_2384
-      - ‌‌🇨🇦CA_0443+@WangCai_1
-      - ‌‌🇨🇦CA_5601+@WangCai_1
-      - US_1326
-      - US_1759
-      - US_1535
-      - US_1699
-      - US_1756 2
-      - ‌‌🇨🇦CA_6379+@WangCai_1
-      - ‌‌🇨🇦CA_8009+@WangCai_1
-      - ‌‌🇨🇦CA_5004+@WangCai_1
-      - US_1076
-      - ‌‌🇨🇦CA_9101+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_438
-      - US_1529 2
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - US_1534
-      - US_1212
-      - US_3179
-      - ‌‌🇨🇦CA_8119+@WangCai_1
-      - US_1119
-      - SG_1465
+      - 8度商店：8du.shop
+      - 8度商店：8du.shop 2
+      - 8度商店：8du.shop 3
+      - 8度商店：8du.shop 4
+      - 8度商店：8du.shop 5
+      - 8度商店：8du.shop 6
+      - Relay_🇺🇸US-🇺🇸US_3454
+      - US_1506 |74.71Mb
+      - 8度商店：8du.shop 7
+      - Relay_🇺🇸US-🇺🇸US_3455
+      - 8度商店：8du.shop 8
+      - 8度商店：8du.shop 9
+      - US_3460
+      - 8度商店：8du.shop 10
+      - 8度商店：8du.shop 11
+      - 8度商店：8du.shop 12
+      - 8度商店：8du.shop 13
+      - 8度商店：8du.shop 14
+      - 8度商店：8du.shop 15
+      - SG_1535
+      - 8度商店：8du.shop 16
+      - 8度商店：8du.shop 17
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -492,119 +128,28 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ‌‌🇨🇦CA_8080+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_573
-      - Relay_🇨🇳CN-🇯🇵JP_554
-      - Relay_🇨🇳CN-🇺🇸US_566
-      - US_1541
-      - Relay_🇨🇳CN-🇺🇸US_553
-      - Relay_🇨🇳CN-🇺🇸US_436
-      - US_2601
-      - US_2741
-      - US_1771
-      - US_1093
-      - US_1529
-      - US_1533
-      - Relay_🇨🇳CN-🇺🇸US_437
-      - Relay_🇨🇳CN-🇺🇸US_428
-      - Relay_🇨🇳CN-🇰🇷KR_337
-      - US_2376
-      - US_1756
-      - US_2078
-      - US_475 | 6.07Mb
-      - Relay_🇨🇳CN-🇯🇵JP_427
-      - Relay_🇨🇳CN-🇯🇵JP_429
-      - US_2022
-      - US_1053
-      - US_1386
-      - US_1091
-      - US_1111
-      - US_2068
-      - US_1920
-      - US_2013
-      - US_2011
-      - US_2038
-      - US_1392
-      - US_2017
-      - US_2074
-      - US_2743
-      - US_2634
-      - US_1918
-      - US_2012
-      - US_1043
-      - US_2010
-      - US_2014
-      - US_2015
-      - US_2016
-      - US_2069
-      - US_2701
-      - US_3075
-      - US_3172
-      - US_2726
-      - US_2072
-      - US_2948
-      - US_1402
-      - US_2951
-      - US_2921
-      - US_2949
-      - US_2339
-      - US_1787
-      - US_1023
-      - US_2353
-      - US_1683
-      - US_907
-      - US_1026
-      - US_2060
-      - US_1382
-      - US_1168
-      - US_1083
-      - US_1287
-      - US_2480
-      - US_1645
-      - US_2577
-      - US_1952
-      - US_1953
-      - US_2721
-      - US_1577
-      - US_2435
-      - US_1511
-      - US_2056
-      - US_3326
-      - US_1273
-      - US_1531
-      - US_2369
-      - US_2422
-      - US_1432
-      - US_2461
-      - US_2979
-      - US_1072
-      - US_1739
-      - ‌‌🇨🇦CA_8090+@WangCai_1
-      - US_1976
-      - US_2021
-      - US_2102
-      - US_2384
-      - ‌‌🇨🇦CA_0443+@WangCai_1
-      - ‌‌🇨🇦CA_5601+@WangCai_1
-      - US_1326
-      - US_1759
-      - US_1535
-      - US_1699
-      - US_1756 2
-      - ‌‌🇨🇦CA_6379+@WangCai_1
-      - ‌‌🇨🇦CA_8009+@WangCai_1
-      - ‌‌🇨🇦CA_5004+@WangCai_1
-      - US_1076
-      - ‌‌🇨🇦CA_9101+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_438
-      - US_1529 2
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - US_1534
-      - US_1212
-      - US_3179
-      - ‌‌🇨🇦CA_8119+@WangCai_1
-      - US_1119
-      - SG_1465
+      - 8度商店：8du.shop
+      - 8度商店：8du.shop 2
+      - 8度商店：8du.shop 3
+      - 8度商店：8du.shop 4
+      - 8度商店：8du.shop 5
+      - 8度商店：8du.shop 6
+      - Relay_🇺🇸US-🇺🇸US_3454
+      - US_1506 |74.71Mb
+      - 8度商店：8du.shop 7
+      - Relay_🇺🇸US-🇺🇸US_3455
+      - 8度商店：8du.shop 8
+      - 8度商店：8du.shop 9
+      - US_3460
+      - 8度商店：8du.shop 10
+      - 8度商店：8du.shop 11
+      - 8度商店：8du.shop 12
+      - 8度商店：8du.shop 13
+      - 8度商店：8du.shop 14
+      - 8度商店：8du.shop 15
+      - SG_1535
+      - 8度商店：8du.shop 16
+      - 8度商店：8du.shop 17
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -615,356 +160,83 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ‌‌🇨🇦CA_8080+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_573
-      - Relay_🇨🇳CN-🇯🇵JP_554
-      - Relay_🇨🇳CN-🇺🇸US_566
-      - US_1541
-      - Relay_🇨🇳CN-🇺🇸US_553
-      - Relay_🇨🇳CN-🇺🇸US_436
-      - US_2601
-      - US_2741
-      - US_1771
-      - US_1093
-      - US_1529
-      - US_1533
-      - Relay_🇨🇳CN-🇺🇸US_437
-      - Relay_🇨🇳CN-🇺🇸US_428
-      - Relay_🇨🇳CN-🇰🇷KR_337
-      - US_2376
-      - US_1756
-      - US_2078
-      - US_475 | 6.07Mb
-      - Relay_🇨🇳CN-🇯🇵JP_427
-      - Relay_🇨🇳CN-🇯🇵JP_429
-      - US_2022
-      - US_1053
-      - US_1386
-      - US_1091
-      - US_1111
-      - US_2068
-      - US_1920
-      - US_2013
-      - US_2011
-      - US_2038
-      - US_1392
-      - US_2017
-      - US_2074
-      - US_2743
-      - US_2634
-      - US_1918
-      - US_2012
-      - US_1043
-      - US_2010
-      - US_2014
-      - US_2015
-      - US_2016
-      - US_2069
-      - US_2701
-      - US_3075
-      - US_3172
-      - US_2726
-      - US_2072
-      - US_2948
-      - US_1402
-      - US_2951
-      - US_2921
-      - US_2949
-      - US_2339
-      - US_1787
-      - US_1023
-      - US_2353
-      - US_1683
-      - US_907
-      - US_1026
-      - US_2060
-      - US_1382
-      - US_1168
-      - US_1083
-      - US_1287
-      - US_2480
-      - US_1645
-      - US_2577
-      - US_1952
-      - US_1953
-      - US_2721
-      - US_1577
-      - US_2435
-      - US_1511
-      - US_2056
-      - US_3326
-      - US_1273
-      - US_1531
-      - US_2369
-      - US_2422
-      - US_1432
-      - US_2461
-      - US_2979
-      - US_1072
-      - US_1739
-      - ‌‌🇨🇦CA_8090+@WangCai_1
-      - US_1976
-      - US_2021
-      - US_2102
-      - US_2384
-      - ‌‌🇨🇦CA_0443+@WangCai_1
-      - ‌‌🇨🇦CA_5601+@WangCai_1
-      - US_1326
-      - US_1759
-      - US_1535
-      - US_1699
-      - US_1756 2
-      - ‌‌🇨🇦CA_6379+@WangCai_1
-      - ‌‌🇨🇦CA_8009+@WangCai_1
-      - ‌‌🇨🇦CA_5004+@WangCai_1
-      - US_1076
-      - ‌‌🇨🇦CA_9101+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_438
-      - US_1529 2
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - US_1534
-      - US_1212
-      - US_3179
-      - ‌‌🇨🇦CA_8119+@WangCai_1
-      - US_1119
-      - SG_1465
+      - 8度商店：8du.shop
+      - 8度商店：8du.shop 2
+      - 8度商店：8du.shop 3
+      - 8度商店：8du.shop 4
+      - 8度商店：8du.shop 5
+      - 8度商店：8du.shop 6
+      - Relay_🇺🇸US-🇺🇸US_3454
+      - US_1506 |74.71Mb
+      - 8度商店：8du.shop 7
+      - Relay_🇺🇸US-🇺🇸US_3455
+      - 8度商店：8du.shop 8
+      - 8度商店：8du.shop 9
+      - US_3460
+      - 8度商店：8du.shop 10
+      - 8度商店：8du.shop 11
+      - 8度商店：8du.shop 12
+      - 8度商店：8du.shop 13
+      - 8度商店：8du.shop 14
+      - 8度商店：8du.shop 15
+      - SG_1535
+      - 8度商店：8du.shop 16
+      - 8度商店：8du.shop 17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ‌‌🇨🇦CA_8080+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_573
-      - Relay_🇨🇳CN-🇯🇵JP_554
-      - Relay_🇨🇳CN-🇺🇸US_566
-      - US_1541
-      - Relay_🇨🇳CN-🇺🇸US_553
-      - Relay_🇨🇳CN-🇺🇸US_436
-      - US_2601
-      - US_2741
-      - US_1771
-      - US_1093
-      - US_1529
-      - US_1533
-      - Relay_🇨🇳CN-🇺🇸US_437
-      - Relay_🇨🇳CN-🇺🇸US_428
-      - Relay_🇨🇳CN-🇰🇷KR_337
-      - US_2376
-      - US_1756
-      - US_2078
-      - US_475 | 6.07Mb
-      - Relay_🇨🇳CN-🇯🇵JP_427
-      - Relay_🇨🇳CN-🇯🇵JP_429
-      - US_2022
-      - US_1053
-      - US_1386
-      - US_1091
-      - US_1111
-      - US_2068
-      - US_1920
-      - US_2013
-      - US_2011
-      - US_2038
-      - US_1392
-      - US_2017
-      - US_2074
-      - US_2743
-      - US_2634
-      - US_1918
-      - US_2012
-      - US_1043
-      - US_2010
-      - US_2014
-      - US_2015
-      - US_2016
-      - US_2069
-      - US_2701
-      - US_3075
-      - US_3172
-      - US_2726
-      - US_2072
-      - US_2948
-      - US_1402
-      - US_2951
-      - US_2921
-      - US_2949
-      - US_2339
-      - US_1787
-      - US_1023
-      - US_2353
-      - US_1683
-      - US_907
-      - US_1026
-      - US_2060
-      - US_1382
-      - US_1168
-      - US_1083
-      - US_1287
-      - US_2480
-      - US_1645
-      - US_2577
-      - US_1952
-      - US_1953
-      - US_2721
-      - US_1577
-      - US_2435
-      - US_1511
-      - US_2056
-      - US_3326
-      - US_1273
-      - US_1531
-      - US_2369
-      - US_2422
-      - US_1432
-      - US_2461
-      - US_2979
-      - US_1072
-      - US_1739
-      - ‌‌🇨🇦CA_8090+@WangCai_1
-      - US_1976
-      - US_2021
-      - US_2102
-      - US_2384
-      - ‌‌🇨🇦CA_0443+@WangCai_1
-      - ‌‌🇨🇦CA_5601+@WangCai_1
-      - US_1326
-      - US_1759
-      - US_1535
-      - US_1699
-      - US_1756 2
-      - ‌‌🇨🇦CA_6379+@WangCai_1
-      - ‌‌🇨🇦CA_8009+@WangCai_1
-      - ‌‌🇨🇦CA_5004+@WangCai_1
-      - US_1076
-      - ‌‌🇨🇦CA_9101+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_438
-      - US_1529 2
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - US_1534
-      - US_1212
-      - US_3179
-      - ‌‌🇨🇦CA_8119+@WangCai_1
-      - US_1119
-      - SG_1465
+      - 8度商店：8du.shop
+      - 8度商店：8du.shop 2
+      - 8度商店：8du.shop 3
+      - 8度商店：8du.shop 4
+      - 8度商店：8du.shop 5
+      - 8度商店：8du.shop 6
+      - Relay_🇺🇸US-🇺🇸US_3454
+      - US_1506 |74.71Mb
+      - 8度商店：8du.shop 7
+      - Relay_🇺🇸US-🇺🇸US_3455
+      - 8度商店：8du.shop 8
+      - 8度商店：8du.shop 9
+      - US_3460
+      - 8度商店：8du.shop 10
+      - 8度商店：8du.shop 11
+      - 8度商店：8du.shop 12
+      - 8度商店：8du.shop 13
+      - 8度商店：8du.shop 14
+      - 8度商店：8du.shop 15
+      - SG_1535
+      - 8度商店：8du.shop 16
+      - 8度商店：8du.shop 17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ‌‌🇨🇦CA_8080+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_573
-      - Relay_🇨🇳CN-🇯🇵JP_554
-      - Relay_🇨🇳CN-🇺🇸US_566
-      - US_1541
-      - Relay_🇨🇳CN-🇺🇸US_553
-      - Relay_🇨🇳CN-🇺🇸US_436
-      - US_2601
-      - US_2741
-      - US_1771
-      - US_1093
-      - US_1529
-      - US_1533
-      - Relay_🇨🇳CN-🇺🇸US_437
-      - Relay_🇨🇳CN-🇺🇸US_428
-      - Relay_🇨🇳CN-🇰🇷KR_337
-      - US_2376
-      - US_1756
-      - US_2078
-      - US_475 | 6.07Mb
-      - Relay_🇨🇳CN-🇯🇵JP_427
-      - Relay_🇨🇳CN-🇯🇵JP_429
-      - US_2022
-      - US_1053
-      - US_1386
-      - US_1091
-      - US_1111
-      - US_2068
-      - US_1920
-      - US_2013
-      - US_2011
-      - US_2038
-      - US_1392
-      - US_2017
-      - US_2074
-      - US_2743
-      - US_2634
-      - US_1918
-      - US_2012
-      - US_1043
-      - US_2010
-      - US_2014
-      - US_2015
-      - US_2016
-      - US_2069
-      - US_2701
-      - US_3075
-      - US_3172
-      - US_2726
-      - US_2072
-      - US_2948
-      - US_1402
-      - US_2951
-      - US_2921
-      - US_2949
-      - US_2339
-      - US_1787
-      - US_1023
-      - US_2353
-      - US_1683
-      - US_907
-      - US_1026
-      - US_2060
-      - US_1382
-      - US_1168
-      - US_1083
-      - US_1287
-      - US_2480
-      - US_1645
-      - US_2577
-      - US_1952
-      - US_1953
-      - US_2721
-      - US_1577
-      - US_2435
-      - US_1511
-      - US_2056
-      - US_3326
-      - US_1273
-      - US_1531
-      - US_2369
-      - US_2422
-      - US_1432
-      - US_2461
-      - US_2979
-      - US_1072
-      - US_1739
-      - ‌‌🇨🇦CA_8090+@WangCai_1
-      - US_1976
-      - US_2021
-      - US_2102
-      - US_2384
-      - ‌‌🇨🇦CA_0443+@WangCai_1
-      - ‌‌🇨🇦CA_5601+@WangCai_1
-      - US_1326
-      - US_1759
-      - US_1535
-      - US_1699
-      - US_1756 2
-      - ‌‌🇨🇦CA_6379+@WangCai_1
-      - ‌‌🇨🇦CA_8009+@WangCai_1
-      - ‌‌🇨🇦CA_5004+@WangCai_1
-      - US_1076
-      - ‌‌🇨🇦CA_9101+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_438
-      - US_1529 2
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - US_1534
-      - US_1212
-      - US_3179
-      - ‌‌🇨🇦CA_8119+@WangCai_1
-      - US_1119
-      - SG_1465
+      - 8度商店：8du.shop
+      - 8度商店：8du.shop 2
+      - 8度商店：8du.shop 3
+      - 8度商店：8du.shop 4
+      - 8度商店：8du.shop 5
+      - 8度商店：8du.shop 6
+      - Relay_🇺🇸US-🇺🇸US_3454
+      - US_1506 |74.71Mb
+      - 8度商店：8du.shop 7
+      - Relay_🇺🇸US-🇺🇸US_3455
+      - 8度商店：8du.shop 8
+      - 8度商店：8du.shop 9
+      - US_3460
+      - 8度商店：8du.shop 10
+      - 8度商店：8du.shop 11
+      - 8度商店：8du.shop 12
+      - 8度商店：8du.shop 13
+      - 8度商店：8du.shop 14
+      - 8度商店：8du.shop 15
+      - SG_1535
+      - 8度商店：8du.shop 16
+      - 8度商店：8du.shop 17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -980,119 +252,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ‌‌🇨🇦CA_8080+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_573
-      - Relay_🇨🇳CN-🇯🇵JP_554
-      - Relay_🇨🇳CN-🇺🇸US_566
-      - US_1541
-      - Relay_🇨🇳CN-🇺🇸US_553
-      - Relay_🇨🇳CN-🇺🇸US_436
-      - US_2601
-      - US_2741
-      - US_1771
-      - US_1093
-      - US_1529
-      - US_1533
-      - Relay_🇨🇳CN-🇺🇸US_437
-      - Relay_🇨🇳CN-🇺🇸US_428
-      - Relay_🇨🇳CN-🇰🇷KR_337
-      - US_2376
-      - US_1756
-      - US_2078
-      - US_475 | 6.07Mb
-      - Relay_🇨🇳CN-🇯🇵JP_427
-      - Relay_🇨🇳CN-🇯🇵JP_429
-      - US_2022
-      - US_1053
-      - US_1386
-      - US_1091
-      - US_1111
-      - US_2068
-      - US_1920
-      - US_2013
-      - US_2011
-      - US_2038
-      - US_1392
-      - US_2017
-      - US_2074
-      - US_2743
-      - US_2634
-      - US_1918
-      - US_2012
-      - US_1043
-      - US_2010
-      - US_2014
-      - US_2015
-      - US_2016
-      - US_2069
-      - US_2701
-      - US_3075
-      - US_3172
-      - US_2726
-      - US_2072
-      - US_2948
-      - US_1402
-      - US_2951
-      - US_2921
-      - US_2949
-      - US_2339
-      - US_1787
-      - US_1023
-      - US_2353
-      - US_1683
-      - US_907
-      - US_1026
-      - US_2060
-      - US_1382
-      - US_1168
-      - US_1083
-      - US_1287
-      - US_2480
-      - US_1645
-      - US_2577
-      - US_1952
-      - US_1953
-      - US_2721
-      - US_1577
-      - US_2435
-      - US_1511
-      - US_2056
-      - US_3326
-      - US_1273
-      - US_1531
-      - US_2369
-      - US_2422
-      - US_1432
-      - US_2461
-      - US_2979
-      - US_1072
-      - US_1739
-      - ‌‌🇨🇦CA_8090+@WangCai_1
-      - US_1976
-      - US_2021
-      - US_2102
-      - US_2384
-      - ‌‌🇨🇦CA_0443+@WangCai_1
-      - ‌‌🇨🇦CA_5601+@WangCai_1
-      - US_1326
-      - US_1759
-      - US_1535
-      - US_1699
-      - US_1756 2
-      - ‌‌🇨🇦CA_6379+@WangCai_1
-      - ‌‌🇨🇦CA_8009+@WangCai_1
-      - ‌‌🇨🇦CA_5004+@WangCai_1
-      - US_1076
-      - ‌‌🇨🇦CA_9101+@WangCai_1
-      - Relay_🇨🇳CN-🇯🇵JP_438
-      - US_1529 2
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - US_1534
-      - US_1212
-      - US_3179
-      - ‌‌🇨🇦CA_8119+@WangCai_1
-      - US_1119
-      - SG_1465
+      - 8度商店：8du.shop
+      - 8度商店：8du.shop 2
+      - 8度商店：8du.shop 3
+      - 8度商店：8du.shop 4
+      - 8度商店：8du.shop 5
+      - 8度商店：8du.shop 6
+      - Relay_🇺🇸US-🇺🇸US_3454
+      - US_1506 |74.71Mb
+      - 8度商店：8du.shop 7
+      - Relay_🇺🇸US-🇺🇸US_3455
+      - 8度商店：8du.shop 8
+      - 8度商店：8du.shop 9
+      - US_3460
+      - 8度商店：8du.shop 10
+      - 8度商店：8du.shop 11
+      - 8度商店：8du.shop 12
+      - 8度商店：8du.shop 13
+      - 8度商店：8du.shop 14
+      - 8度商店：8du.shop 15
+      - SG_1535
+      - 8度商店：8du.shop 16
+      - 8度商店：8du.shop 17
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
