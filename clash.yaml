@@ -5,175 +5,131 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: KR_912, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
   - {name: Relay_🇨🇳 CN-🇭🇰HK_528, server: zzcm06.bdate.xyz, port: 2000, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
-  - {name: _商店：8du.shop, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_553, server: zzcm06.bdate.xyz, port: 1030, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇹🇼TW_570, server: zzcm09.bdate.xyz, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇹🇼TW_559, server: zzcm08.bdate.xyz, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm08.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_531, server: zzcm01.bdate.xyz, port: 1030, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm01.bdate.xyz}, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1526, server: bai-piao-wang-zhe-iplc2.98848.xyz, port: 443, type: vmess, uuid: b23ecb07-1cd3-4490-b4eb-4d32cd0b9249, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /YouTube-bai-piao-wang-zhe_vws, ws-headers: {Host: bai-piao-wang-zhe-iplc2.98848.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_567, server: zzcm06.bdate.xyz, port: 1580, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_568, server: zzcm06.bdate.xyz, port: 1040, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_525, server: zzcm01.bdate.xyz, port: 2000, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm01.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇹🇼TW_539, server: zzcm04.bdate.xyz, port: 1320, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm04.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇹🇼TW_552, server: zzcm04.bdate.xyz, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm04.bdate.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3308, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3268, server: hk.aqvpn.me, port: 80, type: vmess, uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk.aqvpn.me}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_554, server: zzcm08.bdate.xyz, port: 1580, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm08.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_575, server: zzcm06.bdate.xyz, port: 1980, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3264, server: guil.tk, port: 443, type: vmess, uuid: 6be81d8a-4024-426c-90fd-86fb9379102f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /rkhsvws, ws-headers: {Host: guil.tk}, udp: true}
-  - {name: SG_1522, server: 45.118.133.251, port: 1080, type: vmess, uuid: 3d6fa91a-6186-4d7f-e0b3-a6d2a23f575e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_357, server: zzcm01.bdate.xyz, port: 1580, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm01.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_350, server: zzcm07.bdate.xyz, port: 1360, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm07.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_538, server: zzcm06.bdate.xyz, port: 1360, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_349, server: zzcm01.bdate.xyz, port: 1360, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm01.bdate.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3255, server: us.aqvpn.me, port: 80, type: vmess, uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us.aqvpn.me}, udp: true}
+  - {name: US_2533, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3099, server: vpn01.nfeng6.pp.ua, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: Relay_🇨🇳 CN-🇺🇸US_558, server: zzcm08.bdate.xyz, port: 1360, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm08.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_530, server: zzcm07.bdate.xyz, port: 1030, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm07.bdate.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇷🇺RU_3278, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: Relay_🇺🇸US-🇷🇺RU_3257, server: v2.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: US_2039, server: 185.202.172.243, port: 40941, type: vmess, uuid: 48537820-14f3-4de7-d26e-a3b88bcf015a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_3202, server: 104.224.188.29, port: 38226, type: vmess, uuid: 9299fb78-290c-4aad-befb-0130c074a622, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_3289, server: 185.202.172.243, port: 40941, type: vmess, uuid: 48537820-14f3-4de7-d26e-a3b88bcf015a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_572, server: zzcm09.bdate.xyz, port: 1420, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm09.bdate.xyz}, udp: true}
-  - {name: US_3213, server: 185.202.172.243, port: 40941, type: vmess, uuid: 48537820-14f3-4de7-d26e-a3b88bcf015a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3171, server: xr-5.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, ws-headers: {Host: xr-5.herokuapp.com}, udp: true}
+  - {name: US_1696, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2564, server: 167.88.63.11, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3167, server: hk-c3.myuuusss.com, port: 80, type: vmess, uuid: cf998f5b-85d9-4798-871d-e0e7916fff04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c3.myuuusss.com}, udp: true}
   - {name: US_1135, server: 172.99.190.158, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_355, server: zzcm07.bdate.xyz, port: 1580, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm07.bdate.xyz}, udp: true}
-  - {name: US_1023, server: 172.99.190.158, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Relay_🇨🇳 CN-🇹🇼TW_529, server: zzcm08.bdate.xyz, port: 1320, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm08.bdate.xyz}, udp: true}
   - {name: Relay_🇨🇳 CN-🇹🇼TW_563, server: zzcm06.bdate.xyz, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_360, server: zzcm07.bdate.xyz, port: 1980, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm07.bdate.xyz}, udp: true}
+  - {name: US_2555, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_2589, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _商店：8du.shop, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3255, server: us.aqvpn.me, port: 80, type: vmess, uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us.aqvpn.me}, udp: true}
+  - {name: US_2572, server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_608, server: 183.232.250.96, port: 37003, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_2386, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_3139, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2394, server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2786, server: 172.99.190.188, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1567, server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1601, server: 38.68.134.202, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3148, server: s2.520guge.com, port: 443, type: vmess, uuid: cf1819c8-e530-4626-aec0-87ac04200385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: s2.520guge.com}, udp: true}
+  - {name: US_2308, server: 142.202.48.114, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1678, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2922, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - _商店：8du.shop
-      - Relay_🇨🇳 CN-🇭🇰HK_553
-      - Relay_🇨🇳 CN-🇹🇼TW_570
-      - Relay_🇨🇳 CN-🇹🇼TW_559
-      - Relay_🇨🇳 CN-🇭🇰HK_531
-      - Relay_🇸🇬SG-🇸🇬SG_1526
-      - Relay_🇨🇳 CN-🇺🇸US_567
-      - Relay_🇨🇳 CN-🇺🇸US_568
-      - Relay_🇨🇳 CN-🇭🇰HK_525
-      - Relay_🇨🇳 CN-🇹🇼TW_539
-      - Relay_🇨🇳 CN-🇹🇼TW_552
-      - Relay_🇺🇸US-🇺🇸US_3308
-      - Relay_🇺🇸US-🇺🇸US_3268
-      - Relay_🇨🇳 CN-🇺🇸US_554
-      - Relay_🇨🇳 CN-🇺🇸US_575
-      - Relay_🇺🇸US-🇺🇸US_3264
-      - SG_1522
-      - Relay_🇨🇳 CN-🇺🇸US_357
-      - Relay_🇨🇳 CN-🇺🇸US_350
-      - Relay_🇨🇳 CN-🇺🇸US_538
-      - Relay_🇨🇳 CN-🇺🇸US_349
-      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2533
+      - Relay_🇺🇸US-🇺🇸US_3099
       - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇨🇳 CN-🇭🇰HK_530
-      - Relay_🇺🇸US-🇷🇺RU_3278
-      - Relay_🇺🇸US-🇷🇺RU_3257
-      - US_2039
-      - US_3202
-      - US_3289
-      - Relay_🇨🇳 CN-🇺🇸US_572
-      - US_3213
+      - Relay_🇺🇸US-🇺🇸US_3171
+      - US_1696
+      - US_2564
+      - Relay_🇺🇸US-🇺🇸US_3167
       - US_1135
-      - Relay_🇨🇳 CN-🇺🇸US_355
-      - US_1023
-      - Relay_🇨🇳 CN-🇹🇼TW_529
       - Relay_🇨🇳 CN-🇹🇼TW_563
-      - Relay_🇨🇳 CN-🇺🇸US_360
+      - US_2555
+      - US_2589
+      - _商店：8du.shop
+      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2572
+      - Relay_🇨🇳CN-🇺🇸US_608
+      - US_2386
+      - US_3139
+      - US_2394
+      - US_2786
+      - US_1567
+      - US_1601
+      - Relay_🇺🇸US-🇺🇸US_3148
+      - US_2308
+      - US_1678
+      - US_2922
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - _商店：8du.shop
-      - Relay_🇨🇳 CN-🇭🇰HK_553
-      - Relay_🇨🇳 CN-🇹🇼TW_570
-      - Relay_🇨🇳 CN-🇹🇼TW_559
-      - Relay_🇨🇳 CN-🇭🇰HK_531
-      - Relay_🇸🇬SG-🇸🇬SG_1526
-      - Relay_🇨🇳 CN-🇺🇸US_567
-      - Relay_🇨🇳 CN-🇺🇸US_568
-      - Relay_🇨🇳 CN-🇭🇰HK_525
-      - Relay_🇨🇳 CN-🇹🇼TW_539
-      - Relay_🇨🇳 CN-🇹🇼TW_552
-      - Relay_🇺🇸US-🇺🇸US_3308
-      - Relay_🇺🇸US-🇺🇸US_3268
-      - Relay_🇨🇳 CN-🇺🇸US_554
-      - Relay_🇨🇳 CN-🇺🇸US_575
-      - Relay_🇺🇸US-🇺🇸US_3264
-      - SG_1522
-      - Relay_🇨🇳 CN-🇺🇸US_357
-      - Relay_🇨🇳 CN-🇺🇸US_350
-      - Relay_🇨🇳 CN-🇺🇸US_538
-      - Relay_🇨🇳 CN-🇺🇸US_349
-      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2533
+      - Relay_🇺🇸US-🇺🇸US_3099
       - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇨🇳 CN-🇭🇰HK_530
-      - Relay_🇺🇸US-🇷🇺RU_3278
-      - Relay_🇺🇸US-🇷🇺RU_3257
-      - US_2039
-      - US_3202
-      - US_3289
-      - Relay_🇨🇳 CN-🇺🇸US_572
-      - US_3213
+      - Relay_🇺🇸US-🇺🇸US_3171
+      - US_1696
+      - US_2564
+      - Relay_🇺🇸US-🇺🇸US_3167
       - US_1135
-      - Relay_🇨🇳 CN-🇺🇸US_355
-      - US_1023
-      - Relay_🇨🇳 CN-🇹🇼TW_529
       - Relay_🇨🇳 CN-🇹🇼TW_563
-      - Relay_🇨🇳 CN-🇺🇸US_360
+      - US_2555
+      - US_2589
+      - _商店：8du.shop
+      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2572
+      - Relay_🇨🇳CN-🇺🇸US_608
+      - US_2386
+      - US_3139
+      - US_2394
+      - US_2786
+      - US_1567
+      - US_1601
+      - Relay_🇺🇸US-🇺🇸US_3148
+      - US_2308
+      - US_1678
+      - US_2922
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - _商店：8du.shop
-      - Relay_🇨🇳 CN-🇭🇰HK_553
-      - Relay_🇨🇳 CN-🇹🇼TW_570
-      - Relay_🇨🇳 CN-🇹🇼TW_559
-      - Relay_🇨🇳 CN-🇭🇰HK_531
-      - Relay_🇸🇬SG-🇸🇬SG_1526
-      - Relay_🇨🇳 CN-🇺🇸US_567
-      - Relay_🇨🇳 CN-🇺🇸US_568
-      - Relay_🇨🇳 CN-🇭🇰HK_525
-      - Relay_🇨🇳 CN-🇹🇼TW_539
-      - Relay_🇨🇳 CN-🇹🇼TW_552
-      - Relay_🇺🇸US-🇺🇸US_3308
-      - Relay_🇺🇸US-🇺🇸US_3268
-      - Relay_🇨🇳 CN-🇺🇸US_554
-      - Relay_🇨🇳 CN-🇺🇸US_575
-      - Relay_🇺🇸US-🇺🇸US_3264
-      - SG_1522
-      - Relay_🇨🇳 CN-🇺🇸US_357
-      - Relay_🇨🇳 CN-🇺🇸US_350
-      - Relay_🇨🇳 CN-🇺🇸US_538
-      - Relay_🇨🇳 CN-🇺🇸US_349
-      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2533
+      - Relay_🇺🇸US-🇺🇸US_3099
       - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇨🇳 CN-🇭🇰HK_530
-      - Relay_🇺🇸US-🇷🇺RU_3278
-      - Relay_🇺🇸US-🇷🇺RU_3257
-      - US_2039
-      - US_3202
-      - US_3289
-      - Relay_🇨🇳 CN-🇺🇸US_572
-      - US_3213
+      - Relay_🇺🇸US-🇺🇸US_3171
+      - US_1696
+      - US_2564
+      - Relay_🇺🇸US-🇺🇸US_3167
       - US_1135
-      - Relay_🇨🇳 CN-🇺🇸US_355
-      - US_1023
-      - Relay_🇨🇳 CN-🇹🇼TW_529
       - Relay_🇨🇳 CN-🇹🇼TW_563
-      - Relay_🇨🇳 CN-🇺🇸US_360
+      - US_2555
+      - US_2589
+      - _商店：8du.shop
+      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2572
+      - Relay_🇨🇳CN-🇺🇸US_608
+      - US_2386
+      - US_3139
+      - US_2394
+      - US_2786
+      - US_1567
+      - US_1601
+      - Relay_🇺🇸US-🇺🇸US_3148
+      - US_2308
+      - US_1678
+      - US_2922
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -192,44 +148,33 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - _商店：8du.shop
-      - Relay_🇨🇳 CN-🇭🇰HK_553
-      - Relay_🇨🇳 CN-🇹🇼TW_570
-      - Relay_🇨🇳 CN-🇹🇼TW_559
-      - Relay_🇨🇳 CN-🇭🇰HK_531
-      - Relay_🇸🇬SG-🇸🇬SG_1526
-      - Relay_🇨🇳 CN-🇺🇸US_567
-      - Relay_🇨🇳 CN-🇺🇸US_568
-      - Relay_🇨🇳 CN-🇭🇰HK_525
-      - Relay_🇨🇳 CN-🇹🇼TW_539
-      - Relay_🇨🇳 CN-🇹🇼TW_552
-      - Relay_🇺🇸US-🇺🇸US_3308
-      - Relay_🇺🇸US-🇺🇸US_3268
-      - Relay_🇨🇳 CN-🇺🇸US_554
-      - Relay_🇨🇳 CN-🇺🇸US_575
-      - Relay_🇺🇸US-🇺🇸US_3264
-      - SG_1522
-      - Relay_🇨🇳 CN-🇺🇸US_357
-      - Relay_🇨🇳 CN-🇺🇸US_350
-      - Relay_🇨🇳 CN-🇺🇸US_538
-      - Relay_🇨🇳 CN-🇺🇸US_349
-      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2533
+      - Relay_🇺🇸US-🇺🇸US_3099
       - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇨🇳 CN-🇭🇰HK_530
-      - Relay_🇺🇸US-🇷🇺RU_3278
-      - Relay_🇺🇸US-🇷🇺RU_3257
-      - US_2039
-      - US_3202
-      - US_3289
-      - Relay_🇨🇳 CN-🇺🇸US_572
-      - US_3213
+      - Relay_🇺🇸US-🇺🇸US_3171
+      - US_1696
+      - US_2564
+      - Relay_🇺🇸US-🇺🇸US_3167
       - US_1135
-      - Relay_🇨🇳 CN-🇺🇸US_355
-      - US_1023
-      - Relay_🇨🇳 CN-🇹🇼TW_529
       - Relay_🇨🇳 CN-🇹🇼TW_563
-      - Relay_🇨🇳 CN-🇺🇸US_360
+      - US_2555
+      - US_2589
+      - _商店：8du.shop
+      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2572
+      - Relay_🇨🇳CN-🇺🇸US_608
+      - US_2386
+      - US_3139
+      - US_2394
+      - US_2786
+      - US_1567
+      - US_1601
+      - Relay_🇺🇸US-🇺🇸US_3148
+      - US_2308
+      - US_1678
+      - US_2922
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -240,131 +185,98 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - _商店：8du.shop
-      - Relay_🇨🇳 CN-🇭🇰HK_553
-      - Relay_🇨🇳 CN-🇹🇼TW_570
-      - Relay_🇨🇳 CN-🇹🇼TW_559
-      - Relay_🇨🇳 CN-🇭🇰HK_531
-      - Relay_🇸🇬SG-🇸🇬SG_1526
-      - Relay_🇨🇳 CN-🇺🇸US_567
-      - Relay_🇨🇳 CN-🇺🇸US_568
-      - Relay_🇨🇳 CN-🇭🇰HK_525
-      - Relay_🇨🇳 CN-🇹🇼TW_539
-      - Relay_🇨🇳 CN-🇹🇼TW_552
-      - Relay_🇺🇸US-🇺🇸US_3308
-      - Relay_🇺🇸US-🇺🇸US_3268
-      - Relay_🇨🇳 CN-🇺🇸US_554
-      - Relay_🇨🇳 CN-🇺🇸US_575
-      - Relay_🇺🇸US-🇺🇸US_3264
-      - SG_1522
-      - Relay_🇨🇳 CN-🇺🇸US_357
-      - Relay_🇨🇳 CN-🇺🇸US_350
-      - Relay_🇨🇳 CN-🇺🇸US_538
-      - Relay_🇨🇳 CN-🇺🇸US_349
-      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2533
+      - Relay_🇺🇸US-🇺🇸US_3099
       - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇨🇳 CN-🇭🇰HK_530
-      - Relay_🇺🇸US-🇷🇺RU_3278
-      - Relay_🇺🇸US-🇷🇺RU_3257
-      - US_2039
-      - US_3202
-      - US_3289
-      - Relay_🇨🇳 CN-🇺🇸US_572
-      - US_3213
+      - Relay_🇺🇸US-🇺🇸US_3171
+      - US_1696
+      - US_2564
+      - Relay_🇺🇸US-🇺🇸US_3167
       - US_1135
-      - Relay_🇨🇳 CN-🇺🇸US_355
-      - US_1023
-      - Relay_🇨🇳 CN-🇹🇼TW_529
       - Relay_🇨🇳 CN-🇹🇼TW_563
-      - Relay_🇨🇳 CN-🇺🇸US_360
+      - US_2555
+      - US_2589
+      - _商店：8du.shop
+      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2572
+      - Relay_🇨🇳CN-🇺🇸US_608
+      - US_2386
+      - US_3139
+      - US_2394
+      - US_2786
+      - US_1567
+      - US_1601
+      - Relay_🇺🇸US-🇺🇸US_3148
+      - US_2308
+      - US_1678
+      - US_2922
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - _商店：8du.shop
-      - Relay_🇨🇳 CN-🇭🇰HK_553
-      - Relay_🇨🇳 CN-🇹🇼TW_570
-      - Relay_🇨🇳 CN-🇹🇼TW_559
-      - Relay_🇨🇳 CN-🇭🇰HK_531
-      - Relay_🇸🇬SG-🇸🇬SG_1526
-      - Relay_🇨🇳 CN-🇺🇸US_567
-      - Relay_🇨🇳 CN-🇺🇸US_568
-      - Relay_🇨🇳 CN-🇭🇰HK_525
-      - Relay_🇨🇳 CN-🇹🇼TW_539
-      - Relay_🇨🇳 CN-🇹🇼TW_552
-      - Relay_🇺🇸US-🇺🇸US_3308
-      - Relay_🇺🇸US-🇺🇸US_3268
-      - Relay_🇨🇳 CN-🇺🇸US_554
-      - Relay_🇨🇳 CN-🇺🇸US_575
-      - Relay_🇺🇸US-🇺🇸US_3264
-      - SG_1522
-      - Relay_🇨🇳 CN-🇺🇸US_357
-      - Relay_🇨🇳 CN-🇺🇸US_350
-      - Relay_🇨🇳 CN-🇺🇸US_538
-      - Relay_🇨🇳 CN-🇺🇸US_349
-      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2533
+      - Relay_🇺🇸US-🇺🇸US_3099
       - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇨🇳 CN-🇭🇰HK_530
-      - Relay_🇺🇸US-🇷🇺RU_3278
-      - Relay_🇺🇸US-🇷🇺RU_3257
-      - US_2039
-      - US_3202
-      - US_3289
-      - Relay_🇨🇳 CN-🇺🇸US_572
-      - US_3213
+      - Relay_🇺🇸US-🇺🇸US_3171
+      - US_1696
+      - US_2564
+      - Relay_🇺🇸US-🇺🇸US_3167
       - US_1135
-      - Relay_🇨🇳 CN-🇺🇸US_355
-      - US_1023
-      - Relay_🇨🇳 CN-🇹🇼TW_529
       - Relay_🇨🇳 CN-🇹🇼TW_563
-      - Relay_🇨🇳 CN-🇺🇸US_360
+      - US_2555
+      - US_2589
+      - _商店：8du.shop
+      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2572
+      - Relay_🇨🇳CN-🇺🇸US_608
+      - US_2386
+      - US_3139
+      - US_2394
+      - US_2786
+      - US_1567
+      - US_1601
+      - Relay_🇺🇸US-🇺🇸US_3148
+      - US_2308
+      - US_1678
+      - US_2922
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - _商店：8du.shop
-      - Relay_🇨🇳 CN-🇭🇰HK_553
-      - Relay_🇨🇳 CN-🇹🇼TW_570
-      - Relay_🇨🇳 CN-🇹🇼TW_559
-      - Relay_🇨🇳 CN-🇭🇰HK_531
-      - Relay_🇸🇬SG-🇸🇬SG_1526
-      - Relay_🇨🇳 CN-🇺🇸US_567
-      - Relay_🇨🇳 CN-🇺🇸US_568
-      - Relay_🇨🇳 CN-🇭🇰HK_525
-      - Relay_🇨🇳 CN-🇹🇼TW_539
-      - Relay_🇨🇳 CN-🇹🇼TW_552
-      - Relay_🇺🇸US-🇺🇸US_3308
-      - Relay_🇺🇸US-🇺🇸US_3268
-      - Relay_🇨🇳 CN-🇺🇸US_554
-      - Relay_🇨🇳 CN-🇺🇸US_575
-      - Relay_🇺🇸US-🇺🇸US_3264
-      - SG_1522
-      - Relay_🇨🇳 CN-🇺🇸US_357
-      - Relay_🇨🇳 CN-🇺🇸US_350
-      - Relay_🇨🇳 CN-🇺🇸US_538
-      - Relay_🇨🇳 CN-🇺🇸US_349
-      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2533
+      - Relay_🇺🇸US-🇺🇸US_3099
       - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇨🇳 CN-🇭🇰HK_530
-      - Relay_🇺🇸US-🇷🇺RU_3278
-      - Relay_🇺🇸US-🇷🇺RU_3257
-      - US_2039
-      - US_3202
-      - US_3289
-      - Relay_🇨🇳 CN-🇺🇸US_572
-      - US_3213
+      - Relay_🇺🇸US-🇺🇸US_3171
+      - US_1696
+      - US_2564
+      - Relay_🇺🇸US-🇺🇸US_3167
       - US_1135
-      - Relay_🇨🇳 CN-🇺🇸US_355
-      - US_1023
-      - Relay_🇨🇳 CN-🇹🇼TW_529
       - Relay_🇨🇳 CN-🇹🇼TW_563
-      - Relay_🇨🇳 CN-🇺🇸US_360
+      - US_2555
+      - US_2589
+      - _商店：8du.shop
+      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2572
+      - Relay_🇨🇳CN-🇺🇸US_608
+      - US_2386
+      - US_3139
+      - US_2394
+      - US_2786
+      - US_1567
+      - US_1601
+      - Relay_🇺🇸US-🇺🇸US_3148
+      - US_2308
+      - US_1678
+      - US_2922
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -380,44 +292,33 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - _商店：8du.shop
-      - Relay_🇨🇳 CN-🇭🇰HK_553
-      - Relay_🇨🇳 CN-🇹🇼TW_570
-      - Relay_🇨🇳 CN-🇹🇼TW_559
-      - Relay_🇨🇳 CN-🇭🇰HK_531
-      - Relay_🇸🇬SG-🇸🇬SG_1526
-      - Relay_🇨🇳 CN-🇺🇸US_567
-      - Relay_🇨🇳 CN-🇺🇸US_568
-      - Relay_🇨🇳 CN-🇭🇰HK_525
-      - Relay_🇨🇳 CN-🇹🇼TW_539
-      - Relay_🇨🇳 CN-🇹🇼TW_552
-      - Relay_🇺🇸US-🇺🇸US_3308
-      - Relay_🇺🇸US-🇺🇸US_3268
-      - Relay_🇨🇳 CN-🇺🇸US_554
-      - Relay_🇨🇳 CN-🇺🇸US_575
-      - Relay_🇺🇸US-🇺🇸US_3264
-      - SG_1522
-      - Relay_🇨🇳 CN-🇺🇸US_357
-      - Relay_🇨🇳 CN-🇺🇸US_350
-      - Relay_🇨🇳 CN-🇺🇸US_538
-      - Relay_🇨🇳 CN-🇺🇸US_349
-      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2533
+      - Relay_🇺🇸US-🇺🇸US_3099
       - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇨🇳 CN-🇭🇰HK_530
-      - Relay_🇺🇸US-🇷🇺RU_3278
-      - Relay_🇺🇸US-🇷🇺RU_3257
-      - US_2039
-      - US_3202
-      - US_3289
-      - Relay_🇨🇳 CN-🇺🇸US_572
-      - US_3213
+      - Relay_🇺🇸US-🇺🇸US_3171
+      - US_1696
+      - US_2564
+      - Relay_🇺🇸US-🇺🇸US_3167
       - US_1135
-      - Relay_🇨🇳 CN-🇺🇸US_355
-      - US_1023
-      - Relay_🇨🇳 CN-🇹🇼TW_529
       - Relay_🇨🇳 CN-🇹🇼TW_563
-      - Relay_🇨🇳 CN-🇺🇸US_360
+      - US_2555
+      - US_2589
+      - _商店：8du.shop
+      - Relay_🇺🇸US-🇺🇸US_3255
+      - US_2572
+      - Relay_🇨🇳CN-🇺🇸US_608
+      - US_2386
+      - US_3139
+      - US_2394
+      - US_2786
+      - US_1567
+      - US_1601
+      - Relay_🇺🇸US-🇺🇸US_3148
+      - US_2308
+      - US_1678
+      - US_2922
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
