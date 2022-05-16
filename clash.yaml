@@ -7,31 +7,8 @@ external-controller: :9090
 proxies:
   - {name: KR_912, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
   - {name: Relay_🇨🇳 CN-🇭🇰HK_528, server: zzcm06.bdate.xyz, port: 2000, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
-  - {name: US_2533, server: 172.99.190.205, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3099, server: vpn01.nfeng6.pp.ua, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Relay_🇨🇳 CN-🇺🇸US_558, server: zzcm08.bdate.xyz, port: 1360, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm08.bdate.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3171, server: xr-5.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, ws-headers: {Host: xr-5.herokuapp.com}, udp: true}
-  - {name: US_1696, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_2564, server: 167.88.63.11, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3167, server: hk-c3.myuuusss.com, port: 80, type: vmess, uuid: cf998f5b-85d9-4798-871d-e0e7916fff04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c3.myuuusss.com}, udp: true}
-  - {name: US_1135, server: 172.99.190.158, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_🇨🇳 CN-🇹🇼TW_563, server: zzcm06.bdate.xyz, port: 1930, type: vmess, uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zzcm06.bdate.xyz}, udp: true}
-  - {name: US_2555, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_2589, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3151, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: node.774.gs}, udp: true}
   - {name: _商店：8du.shop, server: s4.mine.com.cn, port: 3333, type: vmess, uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3255, server: us.aqvpn.me, port: 80, type: vmess, uuid: fc1905c5-8a19-4948-9f0d-e6e5427bc72f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us.aqvpn.me}, udp: true}
-  - {name: US_2572, server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_608, server: 183.232.250.96, port: 37003, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_2386, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_3139, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_2394, server: 167.88.63.89, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_2786, server: 172.99.190.188, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1567, server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1601, server: 38.68.134.202, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3148, server: s2.520guge.com, port: 443, type: vmess, uuid: cf1819c8-e530-4626-aec0-87ac04200385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: s2.520guge.com}, udp: true}
-  - {name: US_2308, server: 142.202.48.114, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1678, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_2922, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -40,31 +17,8 @@ proxy-groups:
       - 🎯 全球直连
       - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - US_2533
-      - Relay_🇺🇸US-🇺🇸US_3099
-      - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇺🇸US-🇺🇸US_3171
-      - US_1696
-      - US_2564
-      - Relay_🇺🇸US-🇺🇸US_3167
-      - US_1135
-      - Relay_🇨🇳 CN-🇹🇼TW_563
-      - US_2555
-      - US_2589
+      - Relay_🇺🇸US-🇺🇸US_3151
       - _商店：8du.shop
-      - Relay_🇺🇸US-🇺🇸US_3255
-      - US_2572
-      - Relay_🇨🇳CN-🇺🇸US_608
-      - US_2386
-      - US_3139
-      - US_2394
-      - US_2786
-      - US_1567
-      - US_1601
-      - Relay_🇺🇸US-🇺🇸US_3148
-      - US_2308
-      - US_1678
-      - US_2922
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -72,31 +26,8 @@ proxy-groups:
     proxies:
       - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - US_2533
-      - Relay_🇺🇸US-🇺🇸US_3099
-      - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇺🇸US-🇺🇸US_3171
-      - US_1696
-      - US_2564
-      - Relay_🇺🇸US-🇺🇸US_3167
-      - US_1135
-      - Relay_🇨🇳 CN-🇹🇼TW_563
-      - US_2555
-      - US_2589
+      - Relay_🇺🇸US-🇺🇸US_3151
       - _商店：8du.shop
-      - Relay_🇺🇸US-🇺🇸US_3255
-      - US_2572
-      - Relay_🇨🇳CN-🇺🇸US_608
-      - US_2386
-      - US_3139
-      - US_2394
-      - US_2786
-      - US_1567
-      - US_1601
-      - Relay_🇺🇸US-🇺🇸US_3148
-      - US_2308
-      - US_1678
-      - US_2922
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -105,31 +36,8 @@ proxy-groups:
       - 🎯 全球直连
       - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - US_2533
-      - Relay_🇺🇸US-🇺🇸US_3099
-      - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇺🇸US-🇺🇸US_3171
-      - US_1696
-      - US_2564
-      - Relay_🇺🇸US-🇺🇸US_3167
-      - US_1135
-      - Relay_🇨🇳 CN-🇹🇼TW_563
-      - US_2555
-      - US_2589
+      - Relay_🇺🇸US-🇺🇸US_3151
       - _商店：8du.shop
-      - Relay_🇺🇸US-🇺🇸US_3255
-      - US_2572
-      - Relay_🇨🇳CN-🇺🇸US_608
-      - US_2386
-      - US_3139
-      - US_2394
-      - US_2786
-      - US_1567
-      - US_1601
-      - Relay_🇺🇸US-🇺🇸US_3148
-      - US_2308
-      - US_1678
-      - US_2922
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -150,31 +58,8 @@ proxy-groups:
       - 🎯 全球直连
       - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - US_2533
-      - Relay_🇺🇸US-🇺🇸US_3099
-      - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇺🇸US-🇺🇸US_3171
-      - US_1696
-      - US_2564
-      - Relay_🇺🇸US-🇺🇸US_3167
-      - US_1135
-      - Relay_🇨🇳 CN-🇹🇼TW_563
-      - US_2555
-      - US_2589
+      - Relay_🇺🇸US-🇺🇸US_3151
       - _商店：8du.shop
-      - Relay_🇺🇸US-🇺🇸US_3255
-      - US_2572
-      - Relay_🇨🇳CN-🇺🇸US_608
-      - US_2386
-      - US_3139
-      - US_2394
-      - US_2786
-      - US_1567
-      - US_1601
-      - Relay_🇺🇸US-🇺🇸US_3148
-      - US_2308
-      - US_1678
-      - US_2922
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -187,31 +72,8 @@ proxy-groups:
       - 🔰 节点选择
       - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - US_2533
-      - Relay_🇺🇸US-🇺🇸US_3099
-      - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇺🇸US-🇺🇸US_3171
-      - US_1696
-      - US_2564
-      - Relay_🇺🇸US-🇺🇸US_3167
-      - US_1135
-      - Relay_🇨🇳 CN-🇹🇼TW_563
-      - US_2555
-      - US_2589
+      - Relay_🇺🇸US-🇺🇸US_3151
       - _商店：8du.shop
-      - Relay_🇺🇸US-🇺🇸US_3255
-      - US_2572
-      - Relay_🇨🇳CN-🇺🇸US_608
-      - US_2386
-      - US_3139
-      - US_2394
-      - US_2786
-      - US_1567
-      - US_1601
-      - Relay_🇺🇸US-🇺🇸US_3148
-      - US_2308
-      - US_1678
-      - US_2922
   - name: 📲 电报信息
     type: select
     proxies:
@@ -219,31 +81,8 @@ proxy-groups:
       - 🎯 全球直连
       - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - US_2533
-      - Relay_🇺🇸US-🇺🇸US_3099
-      - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇺🇸US-🇺🇸US_3171
-      - US_1696
-      - US_2564
-      - Relay_🇺🇸US-🇺🇸US_3167
-      - US_1135
-      - Relay_🇨🇳 CN-🇹🇼TW_563
-      - US_2555
-      - US_2589
+      - Relay_🇺🇸US-🇺🇸US_3151
       - _商店：8du.shop
-      - Relay_🇺🇸US-🇺🇸US_3255
-      - US_2572
-      - Relay_🇨🇳CN-🇺🇸US_608
-      - US_2386
-      - US_3139
-      - US_2394
-      - US_2786
-      - US_1567
-      - US_1601
-      - Relay_🇺🇸US-🇺🇸US_3148
-      - US_2308
-      - US_1678
-      - US_2922
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -252,31 +91,8 @@ proxy-groups:
       - ♻️ 自动选择
       - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - US_2533
-      - Relay_🇺🇸US-🇺🇸US_3099
-      - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇺🇸US-🇺🇸US_3171
-      - US_1696
-      - US_2564
-      - Relay_🇺🇸US-🇺🇸US_3167
-      - US_1135
-      - Relay_🇨🇳 CN-🇹🇼TW_563
-      - US_2555
-      - US_2589
+      - Relay_🇺🇸US-🇺🇸US_3151
       - _商店：8du.shop
-      - Relay_🇺🇸US-🇺🇸US_3255
-      - US_2572
-      - Relay_🇨🇳CN-🇺🇸US_608
-      - US_2386
-      - US_3139
-      - US_2394
-      - US_2786
-      - US_1567
-      - US_1601
-      - Relay_🇺🇸US-🇺🇸US_3148
-      - US_2308
-      - US_1678
-      - US_2922
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -294,31 +110,8 @@ proxy-groups:
       - ♻️ 自动选择
       - KR_912
       - Relay_🇨🇳 CN-🇭🇰HK_528
-      - US_2533
-      - Relay_🇺🇸US-🇺🇸US_3099
-      - Relay_🇨🇳 CN-🇺🇸US_558
-      - Relay_🇺🇸US-🇺🇸US_3171
-      - US_1696
-      - US_2564
-      - Relay_🇺🇸US-🇺🇸US_3167
-      - US_1135
-      - Relay_🇨🇳 CN-🇹🇼TW_563
-      - US_2555
-      - US_2589
+      - Relay_🇺🇸US-🇺🇸US_3151
       - _商店：8du.shop
-      - Relay_🇺🇸US-🇺🇸US_3255
-      - US_2572
-      - Relay_🇨🇳CN-🇺🇸US_608
-      - US_2386
-      - US_3139
-      - US_2394
-      - US_2786
-      - US_1567
-      - US_1601
-      - Relay_🇺🇸US-🇺🇸US_3148
-      - US_2308
-      - US_1678
-      - US_2922
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
