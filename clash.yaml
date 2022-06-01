@@ -5,311 +5,299 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_1034 |46.68Mb, server: 20.222.106.239, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.222.106.239}, udp: true}
   - {name: _油管频道：全网最强白嫖, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖 2, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖 3, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖 4, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖, server: 20.222.106.239, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: US_1032 |26.52Mb, server: 20.243.69.62, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.243.69.62}, udp: true}
-  - {name: _油管频道：全网最强白嫖 5, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管频道：全网最强白嫖 2, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管频道：全网最强白嫖 3, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管频道：全网最强白嫖 4, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: 212.81.47.16, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: 212.81.47.17, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 5, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: _油管频道：全网最强白嫖 5, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 6, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: US_1034 |46.68Mb, server: 20.222.106.239, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.222.106.239}, udp: true}
+  - {name: _油管：全网最强白嫖 7, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
   - {name: _油管频道：全网最强白嫖 6, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_1181, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_844, server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1055 |22.43Mb, server: 38.68.134.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _油管频道：全网最强白嫖 7, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_916, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_839, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_848, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1171, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_815, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1175, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1328, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_2130, server: 54.214.170.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US_1069 |23.59Mb, server: 38.114.114.69, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_972, server: 38.114.114.69, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_974, server: 38.114.114.69, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1048, server: 38.114.114.69, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_975, server: 38.114.114.69, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_987, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1035, server: 38.114.114.69, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_981, server: 38.114.114.69, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1054 |23.67Mb, server: 38.114.114.69, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_871, server: 38.114.114.69, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1326, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1028 |21.69Mb, server: 38.143.66.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1063 |22.75Mb, server: 38.114.114.69, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1070 |23.55Mb, server: 38.114.114.69, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1027 |23.89Mb, server: 38.143.66.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1057 | 4.82Mb, server: 34.211.206.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US_1025 |21.70Mb, server: 38.143.66.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_2236, server: 38.143.66.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_2392, server: 38.143.66.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1073 |22.53Mb, server: 38.68.135.19, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1255, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1360, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1239, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1059, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1048 |23.83Mb, server: 38.68.135.18, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1049 |21.41Mb, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1061 |13.21Mb, server: 38.68.135.19, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1080 |24.66Mb, server: 38.68.134.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1057, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1036 |13.48Mb, server: 38.68.135.18, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1141, server: 38.68.135.19, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1035 |22.62Mb, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1085 |23.20Mb, server: 38.68.134.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1092 |22.47Mb, server: 38.68.134.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1074 |105.93Mb, server: 20.239.162.124, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: US_1076 |19.06Mb, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _油管频道：全网最强白嫖 8, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_1077 |20.83Mb, server: 38.68.134.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _油管频道：全网最强白嫖 7, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_1124 |11.07Mb, server: 20.243.71.225, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.243.71.225}, udp: true}
+  - {name: _油管：全网最强白嫖 8, server: 212.81.47.15, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 9, server: 212.81.47.14, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 10, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: US_1040 | 1.99Mb, server: 38.68.134.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _油管：全网最强白嫖 11, server: 212.81.47.12, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: US_2504 |21.54Mb, server: u2.anmu.one, port: 16161, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US_1049, server: 167.88.61.50, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _油管：全网最强白嫖 12, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 13, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 14, server: 212.81.47.18, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 15, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_1310, server: 142.202.48.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _油管：全网最强白嫖 16, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: US_1078 |21.97Mb, server: 38.68.134.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1161, server: 38.68.134.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1327, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1237, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_726, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1087 |11.96Mb, server: 38.68.134.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _油管频道：全网最强白嫖 9, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖 10, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖 11, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: US_1086 |21.30Mb, server: 38.68.134.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _油管频道：全网最强白嫖 12, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_1079 |23.67Mb, server: 38.68.134.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1127, server: au.project4gyuna.pw, port: 80, type: vmess, uuid: 0613c82b-1f56-432f-b94b-691e294d2314, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /project4gyuna.pw, ws-headers: {Host: au.project4gyuna.pw}, udp: true}
+  - {name: US_1036 |13.48Mb, server: 38.68.135.18, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1059, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1077 |20.83Mb, server: 38.68.134.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: US_1081 |23.56Mb, server: 38.68.134.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _油管频道：全网最强白嫖 13, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_1035 |22.62Mb, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1116 | 9.26Mb, server: 5.181.234.254, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1076 |19.06Mb, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1045 |10.01Mb, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _油管：全网最强白嫖 17, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_1117, server: 38.68.135.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1044 |10.15Mb, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1239, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1087 |11.96Mb, server: 38.68.134.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _油管：全网最强白嫖 18, server: 38.68.135.19, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _油管频道：全网最强白嫖 8, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 19, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _油管：全网最强白嫖 20, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_1085 |23.20Mb, server: 38.68.134.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _油管：全网最强白嫖 21, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _油管频道：全网最强白嫖 9, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 22, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1079 |23.67Mb, server: 38.68.134.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1161, server: 38.68.134.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _油管：全网最强白嫖 23, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1004, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _油管：全网最强白嫖 24, server: 20.243.71.225, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: US_1300, server: 38.114.114.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _油管频道：全网最强白嫖 10, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 25, server: 198.57.27.225, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _油管：全网最强白嫖 26, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _油管：全网最强白嫖 27, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1092 |22.47Mb, server: 38.68.134.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1237, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _油管：全网最强白嫖 28, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _油管：全网最强白嫖 29, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _油管：全网最强白嫖 30, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1034 |46.68Mb
       - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - US_1032 |26.52Mb
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
       - _油管频道：全网最强白嫖 4
-      - US_1032 |26.52Mb
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
       - _油管频道：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - US_1034 |46.68Mb
+      - _油管：全网最强白嫖 7
       - _油管频道：全网最强白嫖 6
-      - US_1181
-      - US_844
-      - US_1055 |22.43Mb
       - _油管频道：全网最强白嫖 7
-      - US_916
-      - US_839
-      - US_848
-      - US_1171
-      - US_815
-      - US_1175
-      - US_1328
-      - US_2130
-      - US_1069 |23.59Mb
-      - US_972
-      - US_974
-      - US_1048
-      - US_975
-      - US_987
-      - US_1035
-      - US_981
-      - US_1054 |23.67Mb
-      - US_871
-      - US_1326
-      - US_1028 |21.69Mb
-      - US_1063 |22.75Mb
-      - US_1070 |23.55Mb
-      - US_1027 |23.89Mb
-      - US_1057 | 4.82Mb
-      - US_1025 |21.70Mb
-      - US_2236
-      - US_2392
-      - US_1073 |22.53Mb
-      - US_1255
-      - US_1360
-      - US_1239
-      - US_1059
-      - US_1048 |23.83Mb
-      - US_1049 |21.41Mb
-      - US_1061 |13.21Mb
-      - US_1080 |24.66Mb
-      - US_1057
-      - US_1036 |13.48Mb
-      - US_1141
-      - US_1035 |22.62Mb
-      - US_1085 |23.20Mb
-      - US_1092 |22.47Mb
-      - US_1074 |105.93Mb
-      - US_1076 |19.06Mb
-      - _油管频道：全网最强白嫖 8
-      - US_1077 |20.83Mb
+      - US_1124 |11.07Mb
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - US_1040 | 1.99Mb
+      - _油管：全网最强白嫖 11
+      - US_2504 |21.54Mb
+      - US_1049
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - US_1310
+      - _油管：全网最强白嫖 16
       - US_1078 |21.97Mb
-      - US_1161
-      - US_1327
-      - US_1237
-      - US_726
-      - US_1087 |11.96Mb
-      - _油管频道：全网最强白嫖 9
-      - _油管频道：全网最强白嫖 10
-      - _油管频道：全网最强白嫖 11
       - US_1086 |21.30Mb
-      - _油管频道：全网最强白嫖 12
-      - US_1079 |23.67Mb
+      - Relay_🇺🇸US-🇺🇸US_1127
+      - US_1036 |13.48Mb
+      - US_1059
+      - US_1077 |20.83Mb
       - US_1081 |23.56Mb
-      - _油管频道：全网最强白嫖 13
+      - US_1035 |22.62Mb
+      - US_1116 | 9.26Mb
+      - US_1076 |19.06Mb
+      - US_1045 |10.01Mb
+      - _油管：全网最强白嫖 17
+      - US_1117
+      - US_1044 |10.15Mb
+      - US_1239
+      - US_1087 |11.96Mb
+      - _油管：全网最强白嫖 18
+      - _油管频道：全网最强白嫖 8
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - US_1085 |23.20Mb
+      - _油管：全网最强白嫖 21
+      - _油管频道：全网最强白嫖 9
+      - _油管：全网最强白嫖 22
+      - US_1079 |23.67Mb
+      - US_1161
+      - _油管：全网最强白嫖 23
+      - US_1004
+      - _油管：全网最强白嫖 24
+      - US_1300
+      - _油管频道：全网最强白嫖 10
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - US_1092 |22.47Mb
+      - US_1237
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_1034 |46.68Mb
       - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - US_1032 |26.52Mb
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
       - _油管频道：全网最强白嫖 4
-      - US_1032 |26.52Mb
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
       - _油管频道：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - US_1034 |46.68Mb
+      - _油管：全网最强白嫖 7
       - _油管频道：全网最强白嫖 6
-      - US_1181
-      - US_844
-      - US_1055 |22.43Mb
       - _油管频道：全网最强白嫖 7
-      - US_916
-      - US_839
-      - US_848
-      - US_1171
-      - US_815
-      - US_1175
-      - US_1328
-      - US_2130
-      - US_1069 |23.59Mb
-      - US_972
-      - US_974
-      - US_1048
-      - US_975
-      - US_987
-      - US_1035
-      - US_981
-      - US_1054 |23.67Mb
-      - US_871
-      - US_1326
-      - US_1028 |21.69Mb
-      - US_1063 |22.75Mb
-      - US_1070 |23.55Mb
-      - US_1027 |23.89Mb
-      - US_1057 | 4.82Mb
-      - US_1025 |21.70Mb
-      - US_2236
-      - US_2392
-      - US_1073 |22.53Mb
-      - US_1255
-      - US_1360
-      - US_1239
-      - US_1059
-      - US_1048 |23.83Mb
-      - US_1049 |21.41Mb
-      - US_1061 |13.21Mb
-      - US_1080 |24.66Mb
-      - US_1057
-      - US_1036 |13.48Mb
-      - US_1141
-      - US_1035 |22.62Mb
-      - US_1085 |23.20Mb
-      - US_1092 |22.47Mb
-      - US_1074 |105.93Mb
-      - US_1076 |19.06Mb
-      - _油管频道：全网最强白嫖 8
-      - US_1077 |20.83Mb
+      - US_1124 |11.07Mb
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - US_1040 | 1.99Mb
+      - _油管：全网最强白嫖 11
+      - US_2504 |21.54Mb
+      - US_1049
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - US_1310
+      - _油管：全网最强白嫖 16
       - US_1078 |21.97Mb
-      - US_1161
-      - US_1327
-      - US_1237
-      - US_726
-      - US_1087 |11.96Mb
-      - _油管频道：全网最强白嫖 9
-      - _油管频道：全网最强白嫖 10
-      - _油管频道：全网最强白嫖 11
       - US_1086 |21.30Mb
-      - _油管频道：全网最强白嫖 12
-      - US_1079 |23.67Mb
+      - Relay_🇺🇸US-🇺🇸US_1127
+      - US_1036 |13.48Mb
+      - US_1059
+      - US_1077 |20.83Mb
       - US_1081 |23.56Mb
-      - _油管频道：全网最强白嫖 13
+      - US_1035 |22.62Mb
+      - US_1116 | 9.26Mb
+      - US_1076 |19.06Mb
+      - US_1045 |10.01Mb
+      - _油管：全网最强白嫖 17
+      - US_1117
+      - US_1044 |10.15Mb
+      - US_1239
+      - US_1087 |11.96Mb
+      - _油管：全网最强白嫖 18
+      - _油管频道：全网最强白嫖 8
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - US_1085 |23.20Mb
+      - _油管：全网最强白嫖 21
+      - _油管频道：全网最强白嫖 9
+      - _油管：全网最强白嫖 22
+      - US_1079 |23.67Mb
+      - US_1161
+      - _油管：全网最强白嫖 23
+      - US_1004
+      - _油管：全网最强白嫖 24
+      - US_1300
+      - _油管频道：全网最强白嫖 10
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - US_1092 |22.47Mb
+      - US_1237
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1034 |46.68Mb
       - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - US_1032 |26.52Mb
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
       - _油管频道：全网最强白嫖 4
-      - US_1032 |26.52Mb
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
       - _油管频道：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - US_1034 |46.68Mb
+      - _油管：全网最强白嫖 7
       - _油管频道：全网最强白嫖 6
-      - US_1181
-      - US_844
-      - US_1055 |22.43Mb
       - _油管频道：全网最强白嫖 7
-      - US_916
-      - US_839
-      - US_848
-      - US_1171
-      - US_815
-      - US_1175
-      - US_1328
-      - US_2130
-      - US_1069 |23.59Mb
-      - US_972
-      - US_974
-      - US_1048
-      - US_975
-      - US_987
-      - US_1035
-      - US_981
-      - US_1054 |23.67Mb
-      - US_871
-      - US_1326
-      - US_1028 |21.69Mb
-      - US_1063 |22.75Mb
-      - US_1070 |23.55Mb
-      - US_1027 |23.89Mb
-      - US_1057 | 4.82Mb
-      - US_1025 |21.70Mb
-      - US_2236
-      - US_2392
-      - US_1073 |22.53Mb
-      - US_1255
-      - US_1360
-      - US_1239
-      - US_1059
-      - US_1048 |23.83Mb
-      - US_1049 |21.41Mb
-      - US_1061 |13.21Mb
-      - US_1080 |24.66Mb
-      - US_1057
-      - US_1036 |13.48Mb
-      - US_1141
-      - US_1035 |22.62Mb
-      - US_1085 |23.20Mb
-      - US_1092 |22.47Mb
-      - US_1074 |105.93Mb
-      - US_1076 |19.06Mb
-      - _油管频道：全网最强白嫖 8
-      - US_1077 |20.83Mb
+      - US_1124 |11.07Mb
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - US_1040 | 1.99Mb
+      - _油管：全网最强白嫖 11
+      - US_2504 |21.54Mb
+      - US_1049
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - US_1310
+      - _油管：全网最强白嫖 16
       - US_1078 |21.97Mb
-      - US_1161
-      - US_1327
-      - US_1237
-      - US_726
-      - US_1087 |11.96Mb
-      - _油管频道：全网最强白嫖 9
-      - _油管频道：全网最强白嫖 10
-      - _油管频道：全网最强白嫖 11
       - US_1086 |21.30Mb
-      - _油管频道：全网最强白嫖 12
-      - US_1079 |23.67Mb
+      - Relay_🇺🇸US-🇺🇸US_1127
+      - US_1036 |13.48Mb
+      - US_1059
+      - US_1077 |20.83Mb
       - US_1081 |23.56Mb
-      - _油管频道：全网最强白嫖 13
+      - US_1035 |22.62Mb
+      - US_1116 | 9.26Mb
+      - US_1076 |19.06Mb
+      - US_1045 |10.01Mb
+      - _油管：全网最强白嫖 17
+      - US_1117
+      - US_1044 |10.15Mb
+      - US_1239
+      - US_1087 |11.96Mb
+      - _油管：全网最强白嫖 18
+      - _油管频道：全网最强白嫖 8
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - US_1085 |23.20Mb
+      - _油管：全网最强白嫖 21
+      - _油管频道：全网最强白嫖 9
+      - _油管：全网最强白嫖 22
+      - US_1079 |23.67Mb
+      - US_1161
+      - _油管：全网最强白嫖 23
+      - US_1004
+      - _油管：全网最强白嫖 24
+      - US_1300
+      - _油管频道：全网最强白嫖 10
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - US_1092 |22.47Mb
+      - US_1237
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -328,78 +316,75 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1034 |46.68Mb
       - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - US_1032 |26.52Mb
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
       - _油管频道：全网最强白嫖 4
-      - US_1032 |26.52Mb
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
       - _油管频道：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - US_1034 |46.68Mb
+      - _油管：全网最强白嫖 7
       - _油管频道：全网最强白嫖 6
-      - US_1181
-      - US_844
-      - US_1055 |22.43Mb
       - _油管频道：全网最强白嫖 7
-      - US_916
-      - US_839
-      - US_848
-      - US_1171
-      - US_815
-      - US_1175
-      - US_1328
-      - US_2130
-      - US_1069 |23.59Mb
-      - US_972
-      - US_974
-      - US_1048
-      - US_975
-      - US_987
-      - US_1035
-      - US_981
-      - US_1054 |23.67Mb
-      - US_871
-      - US_1326
-      - US_1028 |21.69Mb
-      - US_1063 |22.75Mb
-      - US_1070 |23.55Mb
-      - US_1027 |23.89Mb
-      - US_1057 | 4.82Mb
-      - US_1025 |21.70Mb
-      - US_2236
-      - US_2392
-      - US_1073 |22.53Mb
-      - US_1255
-      - US_1360
-      - US_1239
-      - US_1059
-      - US_1048 |23.83Mb
-      - US_1049 |21.41Mb
-      - US_1061 |13.21Mb
-      - US_1080 |24.66Mb
-      - US_1057
-      - US_1036 |13.48Mb
-      - US_1141
-      - US_1035 |22.62Mb
-      - US_1085 |23.20Mb
-      - US_1092 |22.47Mb
-      - US_1074 |105.93Mb
-      - US_1076 |19.06Mb
-      - _油管频道：全网最强白嫖 8
-      - US_1077 |20.83Mb
+      - US_1124 |11.07Mb
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - US_1040 | 1.99Mb
+      - _油管：全网最强白嫖 11
+      - US_2504 |21.54Mb
+      - US_1049
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - US_1310
+      - _油管：全网最强白嫖 16
       - US_1078 |21.97Mb
-      - US_1161
-      - US_1327
-      - US_1237
-      - US_726
-      - US_1087 |11.96Mb
-      - _油管频道：全网最强白嫖 9
-      - _油管频道：全网最强白嫖 10
-      - _油管频道：全网最强白嫖 11
       - US_1086 |21.30Mb
-      - _油管频道：全网最强白嫖 12
-      - US_1079 |23.67Mb
+      - Relay_🇺🇸US-🇺🇸US_1127
+      - US_1036 |13.48Mb
+      - US_1059
+      - US_1077 |20.83Mb
       - US_1081 |23.56Mb
-      - _油管频道：全网最强白嫖 13
+      - US_1035 |22.62Mb
+      - US_1116 | 9.26Mb
+      - US_1076 |19.06Mb
+      - US_1045 |10.01Mb
+      - _油管：全网最强白嫖 17
+      - US_1117
+      - US_1044 |10.15Mb
+      - US_1239
+      - US_1087 |11.96Mb
+      - _油管：全网最强白嫖 18
+      - _油管频道：全网最强白嫖 8
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - US_1085 |23.20Mb
+      - _油管：全网最强白嫖 21
+      - _油管频道：全网最强白嫖 9
+      - _油管：全网最强白嫖 22
+      - US_1079 |23.67Mb
+      - US_1161
+      - _油管：全网最强白嫖 23
+      - US_1004
+      - _油管：全网最强白嫖 24
+      - US_1300
+      - _油管频道：全网最强白嫖 10
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - US_1092 |22.47Mb
+      - US_1237
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -410,233 +395,224 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_1034 |46.68Mb
       - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - US_1032 |26.52Mb
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
       - _油管频道：全网最强白嫖 4
-      - US_1032 |26.52Mb
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
       - _油管频道：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - US_1034 |46.68Mb
+      - _油管：全网最强白嫖 7
       - _油管频道：全网最强白嫖 6
-      - US_1181
-      - US_844
-      - US_1055 |22.43Mb
       - _油管频道：全网最强白嫖 7
-      - US_916
-      - US_839
-      - US_848
-      - US_1171
-      - US_815
-      - US_1175
-      - US_1328
-      - US_2130
-      - US_1069 |23.59Mb
-      - US_972
-      - US_974
-      - US_1048
-      - US_975
-      - US_987
-      - US_1035
-      - US_981
-      - US_1054 |23.67Mb
-      - US_871
-      - US_1326
-      - US_1028 |21.69Mb
-      - US_1063 |22.75Mb
-      - US_1070 |23.55Mb
-      - US_1027 |23.89Mb
-      - US_1057 | 4.82Mb
-      - US_1025 |21.70Mb
-      - US_2236
-      - US_2392
-      - US_1073 |22.53Mb
-      - US_1255
-      - US_1360
-      - US_1239
-      - US_1059
-      - US_1048 |23.83Mb
-      - US_1049 |21.41Mb
-      - US_1061 |13.21Mb
-      - US_1080 |24.66Mb
-      - US_1057
-      - US_1036 |13.48Mb
-      - US_1141
-      - US_1035 |22.62Mb
-      - US_1085 |23.20Mb
-      - US_1092 |22.47Mb
-      - US_1074 |105.93Mb
-      - US_1076 |19.06Mb
-      - _油管频道：全网最强白嫖 8
-      - US_1077 |20.83Mb
+      - US_1124 |11.07Mb
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - US_1040 | 1.99Mb
+      - _油管：全网最强白嫖 11
+      - US_2504 |21.54Mb
+      - US_1049
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - US_1310
+      - _油管：全网最强白嫖 16
       - US_1078 |21.97Mb
-      - US_1161
-      - US_1327
-      - US_1237
-      - US_726
-      - US_1087 |11.96Mb
-      - _油管频道：全网最强白嫖 9
-      - _油管频道：全网最强白嫖 10
-      - _油管频道：全网最强白嫖 11
       - US_1086 |21.30Mb
-      - _油管频道：全网最强白嫖 12
-      - US_1079 |23.67Mb
+      - Relay_🇺🇸US-🇺🇸US_1127
+      - US_1036 |13.48Mb
+      - US_1059
+      - US_1077 |20.83Mb
       - US_1081 |23.56Mb
-      - _油管频道：全网最强白嫖 13
+      - US_1035 |22.62Mb
+      - US_1116 | 9.26Mb
+      - US_1076 |19.06Mb
+      - US_1045 |10.01Mb
+      - _油管：全网最强白嫖 17
+      - US_1117
+      - US_1044 |10.15Mb
+      - US_1239
+      - US_1087 |11.96Mb
+      - _油管：全网最强白嫖 18
+      - _油管频道：全网最强白嫖 8
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - US_1085 |23.20Mb
+      - _油管：全网最强白嫖 21
+      - _油管频道：全网最强白嫖 9
+      - _油管：全网最强白嫖 22
+      - US_1079 |23.67Mb
+      - US_1161
+      - _油管：全网最强白嫖 23
+      - US_1004
+      - _油管：全网最强白嫖 24
+      - US_1300
+      - _油管频道：全网最强白嫖 10
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - US_1092 |22.47Mb
+      - US_1237
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_1034 |46.68Mb
       - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - US_1032 |26.52Mb
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
       - _油管频道：全网最强白嫖 4
-      - US_1032 |26.52Mb
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
       - _油管频道：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - US_1034 |46.68Mb
+      - _油管：全网最强白嫖 7
       - _油管频道：全网最强白嫖 6
-      - US_1181
-      - US_844
-      - US_1055 |22.43Mb
       - _油管频道：全网最强白嫖 7
-      - US_916
-      - US_839
-      - US_848
-      - US_1171
-      - US_815
-      - US_1175
-      - US_1328
-      - US_2130
-      - US_1069 |23.59Mb
-      - US_972
-      - US_974
-      - US_1048
-      - US_975
-      - US_987
-      - US_1035
-      - US_981
-      - US_1054 |23.67Mb
-      - US_871
-      - US_1326
-      - US_1028 |21.69Mb
-      - US_1063 |22.75Mb
-      - US_1070 |23.55Mb
-      - US_1027 |23.89Mb
-      - US_1057 | 4.82Mb
-      - US_1025 |21.70Mb
-      - US_2236
-      - US_2392
-      - US_1073 |22.53Mb
-      - US_1255
-      - US_1360
-      - US_1239
-      - US_1059
-      - US_1048 |23.83Mb
-      - US_1049 |21.41Mb
-      - US_1061 |13.21Mb
-      - US_1080 |24.66Mb
-      - US_1057
-      - US_1036 |13.48Mb
-      - US_1141
-      - US_1035 |22.62Mb
-      - US_1085 |23.20Mb
-      - US_1092 |22.47Mb
-      - US_1074 |105.93Mb
-      - US_1076 |19.06Mb
-      - _油管频道：全网最强白嫖 8
-      - US_1077 |20.83Mb
+      - US_1124 |11.07Mb
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - US_1040 | 1.99Mb
+      - _油管：全网最强白嫖 11
+      - US_2504 |21.54Mb
+      - US_1049
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - US_1310
+      - _油管：全网最强白嫖 16
       - US_1078 |21.97Mb
-      - US_1161
-      - US_1327
-      - US_1237
-      - US_726
-      - US_1087 |11.96Mb
-      - _油管频道：全网最强白嫖 9
-      - _油管频道：全网最强白嫖 10
-      - _油管频道：全网最强白嫖 11
       - US_1086 |21.30Mb
-      - _油管频道：全网最强白嫖 12
-      - US_1079 |23.67Mb
+      - Relay_🇺🇸US-🇺🇸US_1127
+      - US_1036 |13.48Mb
+      - US_1059
+      - US_1077 |20.83Mb
       - US_1081 |23.56Mb
-      - _油管频道：全网最强白嫖 13
+      - US_1035 |22.62Mb
+      - US_1116 | 9.26Mb
+      - US_1076 |19.06Mb
+      - US_1045 |10.01Mb
+      - _油管：全网最强白嫖 17
+      - US_1117
+      - US_1044 |10.15Mb
+      - US_1239
+      - US_1087 |11.96Mb
+      - _油管：全网最强白嫖 18
+      - _油管频道：全网最强白嫖 8
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - US_1085 |23.20Mb
+      - _油管：全网最强白嫖 21
+      - _油管频道：全网最强白嫖 9
+      - _油管：全网最强白嫖 22
+      - US_1079 |23.67Mb
+      - US_1161
+      - _油管：全网最强白嫖 23
+      - US_1004
+      - _油管：全网最强白嫖 24
+      - US_1300
+      - _油管频道：全网最强白嫖 10
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - US_1092 |22.47Mb
+      - US_1237
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1034 |46.68Mb
       - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - US_1032 |26.52Mb
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
       - _油管频道：全网最强白嫖 4
-      - US_1032 |26.52Mb
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
       - _油管频道：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - US_1034 |46.68Mb
+      - _油管：全网最强白嫖 7
       - _油管频道：全网最强白嫖 6
-      - US_1181
-      - US_844
-      - US_1055 |22.43Mb
       - _油管频道：全网最强白嫖 7
-      - US_916
-      - US_839
-      - US_848
-      - US_1171
-      - US_815
-      - US_1175
-      - US_1328
-      - US_2130
-      - US_1069 |23.59Mb
-      - US_972
-      - US_974
-      - US_1048
-      - US_975
-      - US_987
-      - US_1035
-      - US_981
-      - US_1054 |23.67Mb
-      - US_871
-      - US_1326
-      - US_1028 |21.69Mb
-      - US_1063 |22.75Mb
-      - US_1070 |23.55Mb
-      - US_1027 |23.89Mb
-      - US_1057 | 4.82Mb
-      - US_1025 |21.70Mb
-      - US_2236
-      - US_2392
-      - US_1073 |22.53Mb
-      - US_1255
-      - US_1360
-      - US_1239
-      - US_1059
-      - US_1048 |23.83Mb
-      - US_1049 |21.41Mb
-      - US_1061 |13.21Mb
-      - US_1080 |24.66Mb
-      - US_1057
-      - US_1036 |13.48Mb
-      - US_1141
-      - US_1035 |22.62Mb
-      - US_1085 |23.20Mb
-      - US_1092 |22.47Mb
-      - US_1074 |105.93Mb
-      - US_1076 |19.06Mb
-      - _油管频道：全网最强白嫖 8
-      - US_1077 |20.83Mb
+      - US_1124 |11.07Mb
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - US_1040 | 1.99Mb
+      - _油管：全网最强白嫖 11
+      - US_2504 |21.54Mb
+      - US_1049
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - US_1310
+      - _油管：全网最强白嫖 16
       - US_1078 |21.97Mb
-      - US_1161
-      - US_1327
-      - US_1237
-      - US_726
-      - US_1087 |11.96Mb
-      - _油管频道：全网最强白嫖 9
-      - _油管频道：全网最强白嫖 10
-      - _油管频道：全网最强白嫖 11
       - US_1086 |21.30Mb
-      - _油管频道：全网最强白嫖 12
-      - US_1079 |23.67Mb
+      - Relay_🇺🇸US-🇺🇸US_1127
+      - US_1036 |13.48Mb
+      - US_1059
+      - US_1077 |20.83Mb
       - US_1081 |23.56Mb
-      - _油管频道：全网最强白嫖 13
+      - US_1035 |22.62Mb
+      - US_1116 | 9.26Mb
+      - US_1076 |19.06Mb
+      - US_1045 |10.01Mb
+      - _油管：全网最强白嫖 17
+      - US_1117
+      - US_1044 |10.15Mb
+      - US_1239
+      - US_1087 |11.96Mb
+      - _油管：全网最强白嫖 18
+      - _油管频道：全网最强白嫖 8
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - US_1085 |23.20Mb
+      - _油管：全网最强白嫖 21
+      - _油管频道：全网最强白嫖 9
+      - _油管：全网最强白嫖 22
+      - US_1079 |23.67Mb
+      - US_1161
+      - _油管：全网最强白嫖 23
+      - US_1004
+      - _油管：全网最强白嫖 24
+      - US_1300
+      - _油管频道：全网最强白嫖 10
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - US_1092 |22.47Mb
+      - US_1237
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -652,78 +628,75 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1034 |46.68Mb
       - _油管频道：全网最强白嫖
+      - _油管：全网最强白嫖
+      - _油管：全网最强白嫖 2
+      - US_1032 |26.52Mb
       - _油管频道：全网最强白嫖 2
       - _油管频道：全网最强白嫖 3
       - _油管频道：全网最强白嫖 4
-      - US_1032 |26.52Mb
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - _油管：全网最强白嫖 5
       - _油管频道：全网最强白嫖 5
+      - _油管：全网最强白嫖 6
+      - US_1034 |46.68Mb
+      - _油管：全网最强白嫖 7
       - _油管频道：全网最强白嫖 6
-      - US_1181
-      - US_844
-      - US_1055 |22.43Mb
       - _油管频道：全网最强白嫖 7
-      - US_916
-      - US_839
-      - US_848
-      - US_1171
-      - US_815
-      - US_1175
-      - US_1328
-      - US_2130
-      - US_1069 |23.59Mb
-      - US_972
-      - US_974
-      - US_1048
-      - US_975
-      - US_987
-      - US_1035
-      - US_981
-      - US_1054 |23.67Mb
-      - US_871
-      - US_1326
-      - US_1028 |21.69Mb
-      - US_1063 |22.75Mb
-      - US_1070 |23.55Mb
-      - US_1027 |23.89Mb
-      - US_1057 | 4.82Mb
-      - US_1025 |21.70Mb
-      - US_2236
-      - US_2392
-      - US_1073 |22.53Mb
-      - US_1255
-      - US_1360
-      - US_1239
-      - US_1059
-      - US_1048 |23.83Mb
-      - US_1049 |21.41Mb
-      - US_1061 |13.21Mb
-      - US_1080 |24.66Mb
-      - US_1057
-      - US_1036 |13.48Mb
-      - US_1141
-      - US_1035 |22.62Mb
-      - US_1085 |23.20Mb
-      - US_1092 |22.47Mb
-      - US_1074 |105.93Mb
-      - US_1076 |19.06Mb
-      - _油管频道：全网最强白嫖 8
-      - US_1077 |20.83Mb
+      - US_1124 |11.07Mb
+      - _油管：全网最强白嫖 8
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
+      - US_1040 | 1.99Mb
+      - _油管：全网最强白嫖 11
+      - US_2504 |21.54Mb
+      - US_1049
+      - _油管：全网最强白嫖 12
+      - _油管：全网最强白嫖 13
+      - _油管：全网最强白嫖 14
+      - _油管：全网最强白嫖 15
+      - US_1310
+      - _油管：全网最强白嫖 16
       - US_1078 |21.97Mb
-      - US_1161
-      - US_1327
-      - US_1237
-      - US_726
-      - US_1087 |11.96Mb
-      - _油管频道：全网最强白嫖 9
-      - _油管频道：全网最强白嫖 10
-      - _油管频道：全网最强白嫖 11
       - US_1086 |21.30Mb
-      - _油管频道：全网最强白嫖 12
-      - US_1079 |23.67Mb
+      - Relay_🇺🇸US-🇺🇸US_1127
+      - US_1036 |13.48Mb
+      - US_1059
+      - US_1077 |20.83Mb
       - US_1081 |23.56Mb
-      - _油管频道：全网最强白嫖 13
+      - US_1035 |22.62Mb
+      - US_1116 | 9.26Mb
+      - US_1076 |19.06Mb
+      - US_1045 |10.01Mb
+      - _油管：全网最强白嫖 17
+      - US_1117
+      - US_1044 |10.15Mb
+      - US_1239
+      - US_1087 |11.96Mb
+      - _油管：全网最强白嫖 18
+      - _油管频道：全网最强白嫖 8
+      - _油管：全网最强白嫖 19
+      - _油管：全网最强白嫖 20
+      - US_1085 |23.20Mb
+      - _油管：全网最强白嫖 21
+      - _油管频道：全网最强白嫖 9
+      - _油管：全网最强白嫖 22
+      - US_1079 |23.67Mb
+      - US_1161
+      - _油管：全网最强白嫖 23
+      - US_1004
+      - _油管：全网最强白嫖 24
+      - US_1300
+      - _油管频道：全网最强白嫖 10
+      - _油管：全网最强白嫖 25
+      - _油管：全网最强白嫖 26
+      - _油管：全网最强白嫖 27
+      - US_1092 |22.47Mb
+      - US_1237
+      - _油管：全网最强白嫖 28
+      - _油管：全网最强白嫖 29
+      - _油管：全网最强白嫖 30
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
